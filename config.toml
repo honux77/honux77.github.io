@@ -7,3 +7,10 @@ publishdir = "./docs/"
 [taxonomies]
    tag = "tags"
    category = "categories"
+
+[params]
+    # The name to display as main title in the home page
+    mainpagetitle = "HONUX.386"
+
+    # The subtitle to display under the title in the home page
+    mainpagesubtitle = "응답하라 호눅스 90!" 
