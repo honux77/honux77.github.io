@@ -1,0 +1,8 @@
+baseURL = "http://honux77.github.io/"
+languageCode = "ko-kr"
+title = "Honux Blog"
+theme = "hugo.386"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
