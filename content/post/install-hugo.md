@@ -1,7 +1,7 @@
 ---
 title: "HUGO로 깃헙 블로깅하기"
 date: 2020-09-02T19:28:55+09:00
-draft: true
+draft: false
 tags: ["HUGO", "blog", "GitHub"]
 categories: ["HUGO"]
 ---
@@ -10,7 +10,7 @@ categories: ["HUGO"]
 
 HUGO(https://gohugo.io/)는 go 언어로 만들어진 static 웹 페이지 생성기이다. 
 
-지인이신 정상혁님이 공유한 레트로 테마가 맘데 들어서 설치하기로 마음 먹었다.
+지인이신 정상혁님이 공유한 레트로 테마가 맘에 들어서 설치하기로 마음 먹었다.
 
 ## 설치
 
