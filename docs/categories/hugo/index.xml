@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HUGO on Honux Blog</title>
+    <link>http://honux77.github.io/categories/hugo/</link>
+    <description>Recent content in HUGO on Honux Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Wed, 02 Sep 2020 19:28:55 +0900</lastBuildDate>
+    
+	<atom:link href="http://honux77.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HUGO로 깃헙 블로깅하기</title>
+      <link>http://honux77.github.io/post/install-hugo/</link>
+      <pubDate>Wed, 02 Sep 2020 19:28:55 +0900</pubDate>
+      
+      <guid>http://honux77.github.io/post/install-hugo/</guid>
+      <description>Hugo로 깃헙 블로깅 하기 HUGO(https://gohugo.io/)는 go 언어로 만들어진 static 웹 페이지 생성기이다.
+지인이신 정상혁님이 공유한 레트로 테마가 맘데 들어서 설치하기로 마음 먹었다.
+설치 https://gohugo.io/getting-started/quick-start/ 을 참고해서 설치하면 된다.
+맥, 윈도우, 리눅스, 도커 모두 간편하게 설치가 가능하다.
+다만 맥의 brew, 윈도우는 chocolatey를 먼저 설치해야 한다.
+맥 brew install hugowindows choco install hugo -confirm사이트 생성 my-blog라는 폴더를 생성하고 그 아래에 hugo를 셋업한다.
+hugo new site my-blog테마 설치 cd my-bloggit initgit submodule add https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
