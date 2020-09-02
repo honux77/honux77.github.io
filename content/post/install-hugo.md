@@ -45,7 +45,7 @@ hugo new site my-blog
 ```
 cd  my-blog
 git init
-git submodule add https://gitlab.com/maxlefou/hugo.386 themes/hugo.386
+git submodule add https://github.com/honux77/hugo.386k themes/hugo.386k
 ```
 
 ## 환경 설정
@@ -58,7 +58,7 @@ git submodule add https://gitlab.com/maxlefou/hugo.386 themes/hugo.386
 baseURL = "http://honux77.github.io/"
 languageCode = "ko-kr"
 title = "Honux Blog"
-theme = "hugo.386"
+theme = "hugo.386k"
 publishdir = "./docs/"
 
 [taxonomies]

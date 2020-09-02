@@ -1,7 +1,7 @@
 baseURL = "http://honux77.github.io/"
 languageCode = "ko-kr"
 title = "Honux Blog"
-theme = "hugo.386"
+theme = "hugo.386k"
 publishdir = "./docs/"
 
 [taxonomies]
