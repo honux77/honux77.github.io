@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-    <title>Honux Blog</title>
+    <title>Honux BBS</title>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
     <div class="navbar-inner">
         <div class="container">
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
-            <a class="brand" href="http://honux77.github.io/">Honux Blog</a>
+            <a class="brand" href="http://honux77.github.io/">Honux BBS</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
                     
@@ -34,11 +34,11 @@
     <p class="lead"></p>
     <h1 id="hugo로-깃헙-블로깅-하기">Hugo로 깃헙 블로깅 하기</h1>
 <p>HUGO(<a href="https://gohugo.io/">https://gohugo.io/</a>)는 go 언어로 만들어진 static 웹 페이지 생성기이다.</p>
-<p>지인이신 정상혁님이 공유한 레트로 테마가 맘에 들어서 설치하기로 마음 먹었다.</p>
+<p>네이버 개발자 정상혁님이 공유해주신 레트로 테마가 맘에 들어서 설치하였다.</p>
 <h2 id="설치">설치</h2>
-<p><a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a> 을 참고해서 설치하면 된다.</p>
+<p><a href="https://gohugo.io/getting-started/quick-start/">퀵스타트</a>를 참고해서 설치한다.</p>
 <p>맥, 윈도우, 리눅스, 도커 모두 간편하게 설치가 가능하다.</p>
-<p>다만 맥의 brew, 윈도우는 chocolatey를 먼저 설치해야 한다.</p>
+<p>다만 맥은 brew, 윈도우는 chocolatey를 먼저 설치해야 한다.</p>
 <h3 id="맥">맥</h3>
 <pre><code>brew install hugo
 </code></pre><h3 id="windows">windows</h3>
@@ -47,6 +47,8 @@
 <p>my-blog라는 폴더를 생성하고 그 아래에 hugo를 셋업한다.</p>
 <pre><code>hugo new site my-blog
 </code></pre><h2 id="테마-설치">테마 설치</h2>
+<p>맘에 드는 테마를 설치한다.</p>
+<p>나는 hugo.386 테마에서 한글 폰트를 변경하고 코드 블록을 녹색으로 바꾼 테마를 적용하였다.</p>
 <pre><code>cd  my-blog
 git init
 git submodule add https://github.com/honux77/hugo.386k themes/hugo.386k
@@ -55,7 +57,7 @@ git submodule add https://github.com/honux77/hugo.386k themes/hugo.386k
 <p>깃헙 블로깅을 위해서 <code>publishdir = &quot;./docs/&quot;</code>를 추가하고 기타 설정을 해 줬다.</p>
 <pre><code>baseURL = &quot;http://honux77.github.io/&quot;
 languageCode = &quot;ko-kr&quot;
-title = &quot;Honux Blog&quot;
+title = &quot;Honux BBS&quot;
 theme = &quot;hugo.386k&quot;
 publishdir = &quot;./docs/&quot;
 
@@ -86,7 +88,7 @@ draft: false
 
 ## 첫번째 글
 
-지인분이 공유해 주신 하이텔 시절 테마가 맘에 들어서 글을 하나 올려봤다.
+지인분이 공유해 주신 하이텔 스타일 테마가 맘에 들어서 글을 하나 올려봤다.
 </code></pre><h2 id="로컬-서버-실행-및-테스트">로컬 서버 실행 및 테스트</h2>
 <pre><code>hugo server -D
 </code></pre><p>서버 실행 후에는 <a href="http://localhost:1313">http://localhost:1313</a>으로 접속해서 확인할 수 있다.</p>
@@ -103,20 +105,21 @@ draft: false
 <li>add, commit, push</li>
 </ol>
 <h2 id="깃헙-설정">깃헙 설정</h2>
-<p>깃헙 저장소의 설정 페이지(<a href="https://github.com/honux77/honux77.github.io/settings">https://github.com/honux77/honux77.github.io/settings</a>)에 가면 해당 저장소의 GitHub Pages 설정에서 브랜치와 폴더를 설정할 수 있다.</p>
+<p>깃헙 저장소의 <a href="https://github.com/honux77/honux77.github.io/settings">설정 페이지</a>에 가면 해당 저장소의 GitHub Pages 설정에서 브랜치와 폴더를 설정할 수 있다.</p>
 <p>master 브랜치와 docs 폴더로 설정을 하고 저장한다.</p>
 <h2 id="확인">확인</h2>
 <p>잠시 시간이 지나고 나면 <code>https://내아이디.github.io</code>로 접속이 되는 것을 확인할 수 있다.</p>
 <h2 id="참고-링크">참고 링크</h2>
 <ul>
-<li><a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></li>
-<li><a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a></li>
-<li><a href="https://themes.gohugo.io//theme/hugo.386/">https://themes.gohugo.io//theme/hugo.386/</a></li>
-<li><a href="https://gitlab.com/maxlefou/hugo.386/-/blob/master/exampleSite/config.toml">https://gitlab.com/maxlefou/hugo.386/-/blob/master/exampleSite/config.toml</a></li>
-<li><a href="https://discourse.gohugo.io/t/how-to-add-tag-and-category/3202">https://discourse.gohugo.io/t/how-to-add-tag-and-category/3202</a></li>
+<li><a href="https://gohugo.io/getting-started/quick-start/">퀵스타트</a></li>
+<li><a href="https://gohugo.io/getting-started/installing/">휴고 설치</a></li>
+<li><a href="https://themes.gohugo.io//theme/hugo.386/">hugo.386 테마</a></li>
+<li><a href="https://github.com/honux77/hugo.386k">hugo.386 한글 테마</a></li>
+<li><a href="https://gitlab.com/maxlefou/hugo.386/-/blob/master/exampleSite/config.toml">설정 파일 예제</a></li>
+<li><a href="https://discourse.gohugo.io/t/how-to-add-tag-and-category/3202">태그 및 카테고리 설정 설정</a></li>
 </ul>
 <h3 id="글쓴이">글쓴이</h3>
-<p>소프트웨어 교육기업 코드스쿼드(<a href="https://codesquad.kr">https://codesquad.kr</a>)를 운영하고 있습니다.</p>
+<p>호눅스: 소프트웨어 교육기업 <a href="https://codesquad.kr">코드스쿼드</a>를 운영하고 있습니다.</p>
 
     <h4><a href="http://honux77.github.io/">Back to Home</a></h4>
 </div>
