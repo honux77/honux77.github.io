@@ -1,6 +1,6 @@
 baseURL = "http://honux77.github.io/"
 languageCode = "ko-kr"
-title = "Honux Blog"
+title = "Honux BBS"
 theme = "hugo.386k"
 publishdir = "./docs/"
 
@@ -19,7 +19,7 @@ publishdir = "./docs/"
     mainpagedesc = "테마가 맘에 들어서 설치해 본 깃헙 블로그"
 
     # The name to display in the copyright section in the footer
-    copyrightname = "Honux2020"
+    copyrightname = "Honux"
 
    copyrighturl = "https://codesquad.kr"
 
