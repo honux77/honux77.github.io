@@ -3,12 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://honux77.github.io/tags/blog/</loc>
-    <lastmod>2020-09-02T19:28:55+09:00</lastmod>
+    <loc>http://honux77.github.io/categories/</loc>
+    <lastmod>2020-09-04T12:00:23+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://honux77.github.io/categories/</loc>
+    <loc>http://honux77.github.io/</loc>
+    <lastmod>2020-09-04T12:00:23+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honux77.github.io/tags/hugo/</loc>
+    <lastmod>2020-09-04T12:00:23+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honux77.github.io/categories/hugo/</loc>
+    <lastmod>2020-09-04T12:00:23+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honux77.github.io/post/update-hugo-386k/</loc>
+    <lastmod>2020-09-04T12:00:23+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honux77.github.io/post/</loc>
+    <lastmod>2020-09-04T12:00:23+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honux77.github.io/tags/</loc>
+    <lastmod>2020-09-04T12:00:23+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honux77.github.io/tags/theme/</loc>
+    <lastmod>2020-09-04T12:00:23+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honux77.github.io/tags/blog/</loc>
     <lastmod>2020-09-02T19:28:55+09:00</lastmod>
   </url>
   
@@ -18,32 +53,7 @@
   </url>
   
   <url>
-    <loc>http://honux77.github.io/</loc>
-    <lastmod>2020-09-02T19:28:55+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://honux77.github.io/tags/hugo/</loc>
-    <lastmod>2020-09-02T19:28:55+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://honux77.github.io/categories/hugo/</loc>
-    <lastmod>2020-09-02T19:28:55+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://honux77.github.io/post/install-hugo/</loc>
-    <lastmod>2020-09-02T19:28:55+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://honux77.github.io/post/</loc>
-    <lastmod>2020-09-02T19:28:55+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://honux77.github.io/tags/</loc>
     <lastmod>2020-09-02T19:28:55+09:00</lastmod>
   </url>
   

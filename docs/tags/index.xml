@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Honux BBS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 02 Sep 2020 19:28:55 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2020 12:00:23 +0900</lastBuildDate>
     
 	<atom:link href="http://honux77.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HUGO</title>
+      <link>http://honux77.github.io/tags/hugo/</link>
+      <pubDate>Fri, 04 Sep 2020 12:00:23 +0900</pubDate>
+      
+      <guid>http://honux77.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theme</title>
+      <link>http://honux77.github.io/tags/theme/</link>
+      <pubDate>Fri, 04 Sep 2020 12:00:23 +0900</pubDate>
+      
+      <guid>http://honux77.github.io/tags/theme/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>blog</title>
@@ -26,15 +44,6 @@
       <pubDate>Wed, 02 Sep 2020 19:28:55 +0900</pubDate>
       
       <guid>http://honux77.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HUGO</title>
-      <link>http://honux77.github.io/tags/hugo/</link>
-      <pubDate>Wed, 02 Sep 2020 19:28:55 +0900</pubDate>
-      
-      <guid>http://honux77.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
