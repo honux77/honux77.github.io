@@ -14,7 +14,7 @@ publishdir = "./docs/"
 
     # The subtitle to display under the title in the home page
     mainpagesubtitle = "응답하라 호눅스 90!" 
-
+        
     # The description of your website. It will be displayed in the home page
     mainpagedesc = "테마가 맘에 들어서 설치해 본 깃헙 블로그"
 
