@@ -4,6 +4,7 @@ date: 2020-09-02T19:28:55+09:00
 draft: false
 tags: ["HUGO", "blog", "GitHub"]
 categories: ["HUGO"]
+description: "HUGO를 설치하고 블로그를 써 보자."
 ---
 
 # Hugo로 깃헙 블로깅 하기

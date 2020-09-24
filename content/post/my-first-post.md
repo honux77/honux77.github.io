@@ -4,6 +4,7 @@ date: 2020-08-31T11:35:58+09:00
 tags: ["hello"]
 categories: ["잡담"]
 draft: false
+description: "휴고에 오신 것을 환영합니다."
 ---
 
 # Hello, Hugo

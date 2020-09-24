@@ -3,23 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://honux77.github.io/categories/</loc>
+    <lastmod>2020-09-24T10:28:21+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://honux77.github.io/</loc>
-    <lastmod>2020-09-05T15:23:57+09:00</lastmod>
+    <lastmod>2020-09-24T10:28:21+09:00</lastmod>
   </url>
   
   <url>
     <loc>http://honux77.github.io/post/</loc>
-    <lastmod>2020-09-05T15:23:57+09:00</lastmod>
+    <lastmod>2020-09-24T10:28:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honux77.github.io/tags/</loc>
+    <lastmod>2020-09-24T10:28:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honux77.github.io/tags/vscode/</loc>
+    <lastmod>2020-09-24T10:28:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honux77.github.io/tags/windows/</loc>
+    <lastmod>2020-09-24T10:28:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honux77.github.io/tags/wsl2/</loc>
+    <lastmod>2020-09-24T10:28:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honux77.github.io/post/wsl-vs-code-setting/</loc>
+    <lastmod>2020-09-24T10:28:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honux77.github.io/categories/%EA%B0%9C%EB%B0%9C%ED%8C%81/</loc>
+    <lastmod>2020-09-24T10:28:21+09:00</lastmod>
   </url>
   
   <url>
     <loc>http://honux77.github.io/post/algorithm-200905/</loc>
     <lastmod>2020-09-05T15:23:57+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://honux77.github.io/categories/</loc>
-    <lastmod>2020-09-04T12:00:23+09:00</lastmod>
   </url>
   
   <url>
@@ -34,11 +64,6 @@
   
   <url>
     <loc>http://honux77.github.io/post/update-hugo-386k/</loc>
-    <lastmod>2020-09-04T12:00:23+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://honux77.github.io/tags/</loc>
     <lastmod>2020-09-04T12:00:23+09:00</lastmod>
   </url>
   

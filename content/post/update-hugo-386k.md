@@ -4,6 +4,8 @@ date: 2020-09-04T12:00:23+09:00
 draft: false
 tags: ["hugo", "theme"]
 categories: ["hugo"]
+description: "레트로 감성을 살려 보았다."
+
 ---
 
 # 휴고 테마 업데이트
