@@ -17,11 +17,12 @@
       <pubDate>Thu, 24 Sep 2020 10:28:21 +0900</pubDate>
       
       <guid>http://honux77.github.io/post/wsl-vs-code-setting/</guid>
-      <description>WSL2가 나온 이후로 윈도우에서 간단한 개발환경 세팅하기가 너무 좋아졌다.
-윈도우즈 터미널로 ubuntu zsh을 바로 띄울 수 있고, vscode의remote 기능을 이용하면 네이티브인 것 처럼 개발이 가능하다.
+      <description>WSL2가 나온 이후로 윈도우에서 간단한 개발환경 세팅이 좋아졌다.
+윈도우즈 터미널로 ubuntu zsh을 바로 띄울 수 있고, vscode의 remote 기능을 이용하면 네이티브처럼 개발이 가능하다.
 Git Bash 설치 WSL보다 가볍게 bash를 사용할 수 있으므로 git 작업과 간단한 작업을 할 때 유용하다. https://git-scm.com/ 에서 설치 가능
 윈도우즈 터미널 설치 MS 스토어를 이용해서 설치하는 것이 가장 편하다.
-설치 후에는 윈도우즈 터미널에서 파워셸, 명령창, git-bash, WSL 모두 띄우게 설정하면 편하게 사용할 수 있다.</description>
+설치 후에는 윈도우즈 터미널에서 파워셸, 명령창, git-bash, WSL 모두 띄우게 설정하면 편하게 사용할 수 있다.
+참고: 터미널에 git-bash 추가 아래 내용은 내가 사용하고 있는 내용인데 터미널 설정 파일에 이 부분을 추가하면 된다.</description>
     </item>
     
   </channel>
