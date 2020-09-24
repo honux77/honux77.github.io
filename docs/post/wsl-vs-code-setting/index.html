@@ -31,7 +31,7 @@
     <div class="page-header">
         <h1>WSL2와 VS 코드를 이용한 개발환경 설정 - Thu, Sep 24, 2020</h1>
     </div>
-    <p class="lead"></p>
+    <p class="lead">윈도우에서도 가벼운 코딩이 가능해졌다.</p>
     <p>WSL2가 나온 이후로 윈도우에서 간단한 개발환경 세팅하기가 너무 좋아졌다.</p>
 <p>윈도우즈 터미널로 ubuntu zsh을 바로 띄울 수 있고, vscode의remote 기능을 이용하면 네이티브인 것 처럼 개발이 가능하다.</p>
 <h2 id="git-bash-설치">Git Bash 설치</h2>
@@ -42,26 +42,26 @@
 <h3 id="참고-터미널에-git-bash-추가">참고: 터미널에 git-bash 추가</h3>
 <p>아래 내용은 내가 사용하고 있는 내용인데 터미널 설정 파일에 이 부분을 추가하면 된다. 자세한 내용은
 <a href="https://stackoverflow.com/questions/56839307/adding-git-bash-to-the-new-windows-terminal">스택 오버플로 링크</a> 를 참고.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
-    <span style="color:#f92672">&#34;acrylicOpacity&#34;</span> : <span style="color:#ae81ff">0.75</span>,
-    <span style="color:#f92672">&#34;background&#34;</span> : <span style="color:#e6db74">&#34;#000000&#34;</span>,
-    <span style="color:#f92672">&#34;closeOnExit&#34;</span> : <span style="color:#66d9ef">true</span>,
-    <span style="color:#f92672">&#34;colorScheme&#34;</span> : <span style="color:#e6db74">&#34;Campbell&#34;</span>,
-    <span style="color:#f92672">&#34;commandline&#34;</span> : <span style="color:#e6db74">&#34;\&#34;%PROGRAMFILES%\\git\\bin\\bash.exe\&#34; --login -i -l&#34;</span>,
-    <span style="color:#f92672">&#34;cursorColor&#34;</span> : <span style="color:#e6db74">&#34;#FFFFFF&#34;</span>,
-    <span style="color:#f92672">&#34;cursorShape&#34;</span> : <span style="color:#e6db74">&#34;bar&#34;</span>,
-    <span style="color:#f92672">&#34;fontFace&#34;</span> : <span style="color:#e6db74">&#34;Consolas&#34;</span>,
-    <span style="color:#f92672">&#34;fontSize&#34;</span> : <span style="color:#ae81ff">14</span>,
-    <span style="color:#f92672">&#34;guid&#34;</span> : <span style="color:#e6db74">&#34;{00000000-0000-0000-0000-000000012345}&#34;</span>,
-    <span style="color:#f92672">&#34;historySize&#34;</span> : <span style="color:#ae81ff">9001</span>,
-    <span style="color:#f92672">&#34;icon&#34;</span> : <span style="color:#e6db74">&#34;%PROGRAMFILES%\\git\\mingw64\\share\\git\\git-for-windows.ico&#34;</span>,
-    <span style="color:#f92672">&#34;name&#34;</span> : <span style="color:#e6db74">&#34;Git Bash&#34;</span>,
-    <span style="color:#f92672">&#34;padding&#34;</span> : <span style="color:#e6db74">&#34;0, 0, 0, 0&#34;</span>,
-    <span style="color:#f92672">&#34;snapOnInput&#34;</span> : <span style="color:#66d9ef">true</span>,
-    <span style="color:#f92672">&#34;useAcrylic&#34;</span> : <span style="color:#66d9ef">true</span>
+<pre><code>{
+    &quot;acrylicOpacity&quot; : 0.75,
+    &quot;background&quot; : &quot;#000000&quot;,
+    &quot;closeOnExit&quot; : true,
+    &quot;colorScheme&quot; : &quot;Campbell&quot;,
+    &quot;commandline&quot; : &quot;\&quot;%PROGRAMFILES%\\git\\bin\\bash.exe\&quot; --login -i -l&quot;,
+    &quot;cursorColor&quot; : &quot;#FFFFFF&quot;,
+    &quot;cursorShape&quot; : &quot;bar&quot;,
+    &quot;fontFace&quot; : &quot;Consolas&quot;,
+    &quot;fontSize&quot; : 14,
+    &quot;guid&quot; : &quot;{00000000-0000-0000-0000-000000012345}&quot;,
+    &quot;historySize&quot; : 9001,
+    &quot;icon&quot; : &quot;%PROGRAMFILES%\\git\\mingw64\\share\\git\\git-for-windows.ico&quot;,
+    &quot;name&quot; : &quot;Git Bash&quot;,
+    &quot;padding&quot; : &quot;0, 0, 0, 0&quot;,
+    &quot;snapOnInput&quot; : true,
+    &quot;useAcrylic&quot; : true
     }
-<span style="color:#960050;background-color:#1e0010">}</span>
-</code></pre></div><h2 id="wsl2-설치">WSL2 설치</h2>
+}
+</code></pre><h2 id="wsl2-설치">WSL2 설치</h2>
 <p>검색을 통해 설치했는데 중간에 여러번 오류가 발생했다. 오류 메시지 검색 등을 통해 해결하자.
 잘 안 된다면 스토어에서 ubuntu 20.04 최신버전을 설치해 볼 것.</p>
 <ul>
