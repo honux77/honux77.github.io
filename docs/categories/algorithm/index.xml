@@ -6,10 +6,21 @@
     <description>Recent content in algorithm on Honux BBS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sat, 05 Sep 2020 15:23:57 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2020 13:13:00 +0900</lastBuildDate>
     
 	<atom:link href="http://honux77.github.io/categories/algorithm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>알고리즘 - BOJ 10814 나이순 정렬</title>
+      <link>http://honux77.github.io/post/algorithm-200929/</link>
+      <pubDate>Tue, 29 Sep 2020 13:13:00 +0900</pubDate>
+      
+      <guid>http://honux77.github.io/post/algorithm-200929/</guid>
+      <description>BOJ BOJ 10814 나이순 정렬 문제는 간단한 정렬문제이다.
+다만 기본 정렬인 퀵정렬은 불안전 정렬이기 때문에 안정정렬을 사용해야 한다.
+실패 분석  출력이 많은데 endl을 사용하면 시간초과가 발생한다. 그 사실을 모르고 복잡도 때문인지 알고 카운팅 소트를 구현해서 사용했다.  안정 정렬 구현 코드 #include &amp;lt;cstdio&amp;gt;#include &amp;lt;iostream&amp;gt;#include &amp;lt;vector&amp;gt;#include &amp;lt;string&amp;gt;#include &amp;lt;algorithm&amp;gt;using namespace std;using i64 = long long int;struct People {int age;string name;};bool cmp(const People &amp;amp;a, const People &amp;amp;b) {return a.</description>
+    </item>
     
     <item>
       <title>알고리즘 - BOJ 10972 다음 순열</title>

@@ -2,7 +2,7 @@
 title: "알고리즘 - BOJ 10972 다음 순열"
 date: 2020-09-05T15:23:57+09:00
 draft: false
-tags: ["algorithm", "BOJ", "10972"]
+tags: ["algorithm", "boj", "10972", "silver"]
 categories: ["algorithm"]
 description: "다음 순열을 구하려면 브루트 포스"
 ---

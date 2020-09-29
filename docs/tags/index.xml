@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Honux BBS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 24 Sep 2020 10:28:21 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2020 13:13:00 +0900</lastBuildDate>
     
 	<atom:link href="http://honux77.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>10814</title>
+      <link>http://honux77.github.io/tags/10814/</link>
+      <pubDate>Tue, 29 Sep 2020 13:13:00 +0900</pubDate>
+      
+      <guid>http://honux77.github.io/tags/10814/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>algorithm</title>
+      <link>http://honux77.github.io/tags/algorithm/</link>
+      <pubDate>Tue, 29 Sep 2020 13:13:00 +0900</pubDate>
+      
+      <guid>http://honux77.github.io/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>boj</title>
+      <link>http://honux77.github.io/tags/boj/</link>
+      <pubDate>Tue, 29 Sep 2020 13:13:00 +0900</pubDate>
+      
+      <guid>http://honux77.github.io/tags/boj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>silver</title>
+      <link>http://honux77.github.io/tags/silver/</link>
+      <pubDate>Tue, 29 Sep 2020 13:13:00 +0900</pubDate>
+      
+      <guid>http://honux77.github.io/tags/silver/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>vscode</title>
@@ -44,24 +80,6 @@
       <pubDate>Sat, 05 Sep 2020 15:23:57 +0900</pubDate>
       
       <guid>http://honux77.github.io/tags/10972/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>algorithm</title>
-      <link>http://honux77.github.io/tags/algorithm/</link>
-      <pubDate>Sat, 05 Sep 2020 15:23:57 +0900</pubDate>
-      
-      <guid>http://honux77.github.io/tags/algorithm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BOJ</title>
-      <link>http://honux77.github.io/tags/boj/</link>
-      <pubDate>Sat, 05 Sep 2020 15:23:57 +0900</pubDate>
-      
-      <guid>http://honux77.github.io/tags/boj/</guid>
       <description></description>
     </item>
     
