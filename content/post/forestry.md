@@ -2,7 +2,6 @@
 categories = []
 date = 2020-09-29T15:38:40Z
 description = "나도 편하게 글을 써 보자."
-draft = true
 tags = []
 title = "forestry로 블로그글 쉽게 쓰기"
 
