@@ -22,3 +22,4 @@ fields:
   label: description
 pages:
 - content/post/forestry.md
+- content/post/github-action-hugo-publish.md
