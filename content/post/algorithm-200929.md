@@ -2,7 +2,7 @@
 title: "알고리즘 - BOJ 10814 나이순 정렬"
 date: 2020-09-29T13:13:00+09:00
 draft: false
-tags: ["algorithm", "boj", "10814", "silver"]
+tags: ["algorithm", "boj", "silver"]
 categories: ["algorithm"]
 description: "cpp에서 stable_sort()는 안정 정렬이다."
 ---
