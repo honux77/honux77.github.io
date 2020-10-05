@@ -1,9 +1,9 @@
 +++
-categories = []
+categories = ["blog"]
 date = 2020-09-29T16:33:56Z
-description = "깃헙 액션이 너무 좋다."
-tags = []
-title = "GitHub Action으로 Hugo Publish 쉽게 하기"
+description = "깃헙 액션 좋다."
+tags = ["blog", "github", "hugo"]
+title = "GitHub Action으로 HUGO Publish 쉽게 하기"
 
 +++
 # GitHub Action으로 Hugo Publish 쉽게 하기
