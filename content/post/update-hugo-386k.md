@@ -1,13 +1,14 @@
 ---
-title: "HUGO 테마 업데이트"
-date: 2020-09-04T12:00:23+09:00
-draft: false
-tags: ["hugo", "theme"]
-categories: ["hugo"]
-description: "레트로 감성을 살려 보았다."
+title: HUGO 테마 업데이트
+date: 2020-09-04T12:00:23.000+09:00
+tags:
+- hugo
+- theme
+categories:
+- blog
+description: 레트로 감성을 살려 보았다.
 
 ---
-
 # 휴고 테마 업데이트
 
 간단하게 [테마](https://github.com/honux77/hugo.386k)를 업데이트했다.
