@@ -4,4 +4,5 @@
 맥, 윈도우, 리눅스, 도커 모두 간편하게 설치가 가능하다.
 다만 맥은 brew, 윈도우는 chocolatey를 먼저 설치해야 한다.
 맥 brew install hugo windows choco install hugo -confirm 사이트 생성 my-blog라는 폴더를 생성하고 그 아래에 hugo를 셋업한다.
-hugo new site my-blog 테마 설치 맘에 드는 테마를 설치한다.</description></item></channel></rss>
+hugo new site my-blog 테마 설치 맘에 드는 테마를 설치한다.</description></item><item><title>첫 번째 글</title><link>http://honux77.github.io/post/my-first-post/</link><pubDate>Mon, 31 Aug 2020 11:35:58 +0900</pubDate><guid>http://honux77.github.io/post/my-first-post/</guid><description>Hello, Hugo 첫번째 글 N사 지인이 공유해 주신 하이텔 스타일 테마가 맘에 들어서 글을 하나 올려봤다.
+이번에는 꾸준히 글을 쓸 수 있을까?</description></item></channel></rss>
