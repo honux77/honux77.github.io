@@ -2,7 +2,6 @@
 categories = ["blog"]
 date = 2020-10-05T03:41:07Z
 description = "GitHub과 Hugo 좋아요."
-draft = true
 tags = ["github", "forestry", "blog", "hugo"]
 title = "Hugo를 이용한 GitHub 블로그 시작하기"
 
