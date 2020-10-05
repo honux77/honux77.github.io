@@ -21,5 +21,6 @@ fields:
     required: false
   label: description
 pages:
+- content/hugo-github.md
 - content/post/forestry.md
 - content/post/github-action-hugo-publish.md
