@@ -22,6 +22,7 @@ fields:
   label: description
 pages:
 - content/post/boj-1927.md
+- content/post/boj-5525-ioioi.md
 - content/post/forestry.md
 - content/post/github-action-hugo-publish.md
 - content/post/my-first-post.md
