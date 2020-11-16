@@ -16,43 +16,42 @@ title = "RFC 읽고 GitHub Oauth2 인증 구현해 보기"
 ## 인증 과정 요약
 
 1. **GitHub(Authentication Server)** 에서 제공하는 url을 통해 **사용자(resource owner)**는 **서비스(client)**가 scope로 미리 정의한 요청 권한을 직접 확인하고 grant한다. 결과물로 **authorization code**가 나온다.
-2. 서비스는 callback URL을 통해 사용자로부터 전달받은 code에 client id, secret을 함께 보내면 **access token**을 얻을 수 있다.
-3. 얻은 token을 이용해  'Authorization: bearer 토큰값' 헤더를 설정하고 `GET https://api.github.com/user` 요청을 하면 정상적으로 **GitHub(resource server)**로 부터 정보를 얻을 수 있다. 
+2. 서비스는 callback URL을 통해 사용자로부터 전달받은 code에 client id, secret을 함께 묶어서 인증 서버로 보내면 **access token**을 얻을 수 있다.
+3. 얻은 token을 이용해  'Authorization: bearer 토큰값' 헤더를 설정하고 `GET https://api.github.com/user` 요청을 하면 정상적으로 **GitHub(resource server)**로 부터 정보를 얻을 수 있다.
 
 ## 인증 과정
 
-```
-     +----------+
-     | Resource |
-     |   Owner  |
-     |          |
-     +----------+
-          ^
-          |
-         (B)
-     +----|-----+          Client Identifier      +---------------+
-     |         -+----(A)-- & Redirection URI ---->|               |
-     |  User-   |                                 | Authorization |
-     |  Agent  -+----(B)-- User authenticates --->|     Server    |
-     |          |                                 |               |
-     |         -+----(C)-- Authorization Code ---<|               |
-     +-|----|---+                                 +---------------+
-       |    |                                         ^      v
-      (A)  (C)                                        |      |
-       |    |                                         |      |
-       ^    v                                         |      |
-     +---------+                                      |      |
-     |         |>---(D)-- Authorization Code ---------'      |
-     |  Client |          & Redirection URI                  |
-     |         |                                             |
-     |         |<---(E)----- Access Token -------------------'
-     +---------+       (w/ Optional Refresh Token)
+         +----------+
+         | Resource |
+         |   Owner  |
+         |          |
+         +----------+
+              ^
+              |
+             (B)
+         +----|-----+          Client Identifier      +---------------+
+         |         -+----(A)-- & Redirection URI ---->|               |
+         |  User-   |                                 | Authorization |
+         |  Agent  -+----(B)-- User authenticates --->|     Server    |
+         |          |                                 |               |
+         |         -+----(C)-- Authorization Code ---<|               |
+         +-|----|---+                                 +---------------+
+           |    |                                         ^      v
+          (A)  (C)                                        |      |
+           |    |                                         |      |
+           ^    v                                         |      |
+         +---------+                                      |      |
+         |         |>---(D)-- Authorization Code ---------'      |
+         |  Client |          & Redirection URI                  |
+         |         |                                             |
+         |         |<---(E)----- Access Token -------------------'
+         +---------+       (w/ Optional Refresh Token)
+    
+       Note: The lines illustrating steps (A), (B), and (C) are broken into
+       two parts as they pass through the user-agent.
+    
+                      Authorization Code Flow (출처: RFC6749)
 
-   Note: The lines illustrating steps (A), (B), and (C) are broken into
-   two parts as they pass through the user-agent.
-
-                  Authorization Code Flow (출처: RFC6749)
-```
 ## 깃헙 소스
 
-- [간단 예제 구현 저장소](https://github.com/honux77/oauth2-node)
+* [간단 예제 구현 저장소](https://github.com/honux77/oauth2-node)
