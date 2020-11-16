@@ -26,3 +26,4 @@ pages:
 - content/post/forestry.md
 - content/post/github-action-hugo-publish.md
 - content/post/my-first-post.md
+- content/post/rfc-github-oauth2.md
