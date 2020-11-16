@@ -2,7 +2,6 @@
 categories = ["programming"]
 date = 2020-11-16T12:35:47Z
 description = "RFC 그림은 너무 귀엽다."
-draft = true
 tags = ["javascript", "node", "oauth", "github"]
 title = "RFC 읽고 GitHub Oauth2 인증 구현해 보기"
 
