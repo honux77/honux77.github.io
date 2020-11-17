@@ -2,7 +2,6 @@
 categories = ["programming"]
 date = 2020-11-17T02:36:47Z
 description = "JVM으로 자바 코드를 실행해 보자."
-draft = true
 tags = ["jvm", "study", "java"]
 title = "백기선 자바 스터디 1: JVM과 자바 실행"
 
