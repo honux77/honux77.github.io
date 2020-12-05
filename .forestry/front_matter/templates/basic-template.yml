@@ -22,6 +22,7 @@ fields:
   label: description
 pages:
 - content/post/1-jvm.md
+- content/post/3.md
 - content/post/boj-1927.md
 - content/post/boj-5525-ioioi.md
 - content/post/boj-9205.md
