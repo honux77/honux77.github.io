@@ -2,7 +2,6 @@
 categories = ["programming"]
 date = 2020-12-15T16:11:07Z
 description = "JS에서 static method와 static 변수는 어떻게 선언하면 될까요?"
-draft = true
 tags = ["typescript", "javascript"]
 title = "JS 클래스와 TS static 키워드에 대한 짧은 고찰"
 
