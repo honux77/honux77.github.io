@@ -21,10 +21,9 @@ title = "[새해 첫글] 깃헙 블로그에 OG 태그 적용해 보기"
 
 이렇게 목표를 잡고 나서 잠깐 SNS를 하다 보니, 한 다리 건너 지인이신 원희님의 회고록을 보게 되었다.
 
-[정원희님 회고록](https://wonny-log.github.io/writing/journal/the-year-in-review-2020) 
+[정원희님 회고록](https://wonny-log.github.io/writing/journal/the-year-in-review-2020)
 
-솔직하게 쓴 읽기 좋은 회고록을 보고 아 나도 회고를 해야겠다라는 생각이 들었다. 잠시 후에는 어디에 쓰지? 내 블로그에 써야지까지 생각을 하게 된다.
-그런데 내 블로그는 이상하게 페북 미리보기 기능이 없는 것이다. 이전에 검색을 하고 회사 강력 개발자 Head의 도움으로 OG 태그라는 것을 알게 되었다.
+솔직하게 쓴 읽기 좋은 회고록을 보고 나도 회고를 해야겠다는 생각이 들었다. 잡담에 가까우므로 내 블로그에 쓰는 게 좋겠다. 내 블로그는 이상하게 페북 미리보기 기능이 없다. 왜일까? 이전에 검색을 하고 회사 강력 개발자 Head의 도움으로 OG 태그라는 것을 알게 되었다.
 
 [페이스북 미리 보기와 OG 태그](https://blog.ab180.co/posts/open-graph-as-a-website-preview)
 
@@ -36,16 +35,14 @@ title = "[새해 첫글] 깃헙 블로그에 OG 태그 적용해 보기"
 내가 사용하고 있는 툴은 hugo인데 생각보다 구조가 간단하고 템플릿이 잘 나뉘어 있어서 어렵지 않앗다.
 테마 안의 head.html에 OG태그 관련 속성을 넣어 보았다.
 
-```
-<head>
-    <meta property="og:title" content="{{ .Title }} - {{ .Date.Format "Mon, Jan 2, 2006" }}">
-    <meta property="og:description" content="{{ .Params.description }}">
-    <meta property="og:image" content="{{ .Site.BaseURL }}/img/hugo-og.png">    
-</head>
-```
+    <head>
+        <meta property="og:title" content="{{ .Title }} - {{ .Date.Format "Mon, Jan 2, 2006" }}">
+        <meta property="og:description" content="{{ .Params.description }}">
+        <meta property="og:image" content="{{ .Site.BaseURL }}/img/hugo-og.png">    
+    </head>
 
 일단 로컬에서 미리 보기를 하니 잘 돌아가는 것을 확인하고 커밋, PR, 머지를 완료.
 깃헙 액션으로 자동배포가 되고 있으므로 잠시 후에 자동배포가 될 것인다.
-이제 페이스북에서 테스트하는 것만 남았는데 과연 잘 될까? 
-아직 결과는 모르지만 재미있는 작업이었다. 
+이제 페이스북에서 테스트하는 것만 남았는데 과연 잘 될까?
+아직 결과는 모르지만 재미있는 작업이었다.
 그리고 새해 오전은 이렇게 사라졌다.
