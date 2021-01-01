@@ -3,7 +3,7 @@ categories = []
 date = 2021-01-01T03:39:40Z
 description = "의식의 흐름으로 이상한 글을 쓰게 되었습니다."
 tags = ["hugo", "github", "blog"]
-title = "새해 첫글 깃헙 블로그에 OG 태그 적용해 보기"
+title = "[새해 첫글] 깃헙 블로그에 OG 태그 적용해 보기"
 
 +++
 ## 2020년 1월 1일 첫 글
