@@ -21,7 +21,6 @@ fields:
     required: false
   label: description
 pages:
-- content/page-test.md
 - content/post/1-jvm.md
 - content/post/3.md
 - content/post/4.md
