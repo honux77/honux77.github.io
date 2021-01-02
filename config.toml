@@ -1,5 +1,6 @@
 baseURL = "https://honux77.github.io/"
-languageCode = "ko-kr"
+languageCode = "ko"
+DefaultContentLanguage = "ko"
 title = "Honux BBS"
 theme = "hugo.386k"
 publishdir = "./public/"
@@ -16,7 +17,7 @@ publishdir = "./public/"
     mainpagesubtitle = "응답하라 호눅스 90!" 
         
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "테마가 맘에 들어서 설치해 본 깃헙 블로그"
+    mainpagedesc = "2400BPS Style GitHub Blog"
 
     # The name to display in the copyright section in the footer
     copyrightname = "Honux"
@@ -27,4 +28,18 @@ publishdir = "./public/"
 
     # Urls for social networks
     github = "https://github.com/honux77"
+
+[menu]
+  # This displays buttons in the navbar to access your contents
+  [[menu.main]]
+    identifier = "about" # An unique identifier for the button
+    name = "About"       # A display name for the button
+    url = "/about/"      # The path to the content. It can lead to a single page (like here)
+    weight = 10          # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "All posts"
+    url = "/post/"       # The path can lead to a content folder too.
+    weight = 20
     
