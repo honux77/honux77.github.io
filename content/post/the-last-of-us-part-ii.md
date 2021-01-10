@@ -19,6 +19,8 @@ title = "[매우 주관적 게임리뷰] The Last Of Us Part II"
 출시전부터 이 게임은 혐오의 게임이 되었다. 개발자가 스토리를 일부 유출했는데, 전작의 주인공인 조엘이 사망한다는 루머가 돌았다.
 그리고 출시전 평론가 평점은 거의 만점이었는데, 출시하자마자 대형 유튜브들과 게이머들의 리뷰가 쏟아지기 시작했다. 희대의 망겜이라고.
 
+![image001](/images/LastOfUs-025.jpg)
+
 ## 그들이 이야기하는 이 게임이 망겜인 이유
 
 이런 저런 혹평들이 쏟아졌고, 네티즌과 유튜버들은 이 게임을 조롱하기 시작했다. 게임의 중고가는 당연히 폭락.
@@ -30,7 +32,11 @@ title = "[매우 주관적 게임리뷰] The Last Of Us Part II"
 - 주인공 2의 메스꺼운 배드신, 일본에서는 삭제되었다고 들었다.
 - 너티독의 게임 리뷰 조작설과 게임 디렉터인 닐 드렉먼의 유저를 조롱하는 트윗들
 
+![image001](/images/LastOfUs-009.jpg)
+
 ## 스토리 요약
+
+![image001](/images/LastOfUs-015.jpg)
 
 전작에서 감염되면 좀비가 되는 이상한 포자가 전세계에 퍼진 아포칼립스 시대, 주인공 조엘은 고난 끝에 시애틀의 병원에 세계를 구할 수 있는 유일한 가능성인 엘리를
 데려간다. 하지만 모두를 구하기 위해 엘리를 희생시켜야 한다는 사실에 결국 조엘은 저지하는 병원 관계자를 몰살시키고 탈출한다. 그 이후 엘리와 조엘은 어느 시골마을에 정착하게 된다.
@@ -49,6 +55,8 @@ title = "[매우 주관적 게임리뷰] The Last Of Us Part II"
 
 ## 소감
 
+![image001](/images/LastOfUs-021.jpg)
+
 - 개인적 평점은 9/10. 명작의 반열에 들어갈 수 있다고 생각한다. 평점 9점이라고 했더니 지인이 100점 만점이냐고 물었다. 
 - 긍정 부정을 묻는다면 51점 긍정이라고 생각한다.
 - 또 하고 싶은 게임은 아니었다. 기생충처럼 답답하고, 터치에서 쌍둥이 동생이 죽었을 때의 충격도 생각났다. 에반게리온처럼 작가는 우리가 원하는 것을 전혀 주지 않았다.
@@ -65,35 +73,28 @@ title = "[매우 주관적 게임리뷰] The Last Of Us Part II"
 
 ## 이후 현황 
 
+![image001](/images/LastOfUs-005.jpg)
+
 - 2021년 1월 11일 현재 수많은 유저들의 혹평에도 불구하고 2020년 GOTY가 되었다. 평론가들이 좋아하는 게임이었기 때문에 당연할지도.
 - 방금 검색했는데, [메타크리틱 리뷰](https://www.metacritic.com/game/playstation-4/the-last-of-us-part-ii) 에서 아주 근소하게 긍정이 부정을 앞선다. 또 생각거리가 많아졌다.
 - 아마 한국과 일본의 유저들의 평점을 볼 수 있다면 여전히 10점 만점 기준으로 1-2점 사이가 아닐까 생각한다.
+
+
+
 
 ## 스크린샷
 
 ![image001](/images/LastOfUs-002.jpg)
 
-
 ![image001](/images/LastOfUs-003.jpg)
-
 
 ![image001](/images/LastOfUs-004.jpg)
 
-
-![image001](/images/LastOfUs-005.jpg)
-
-
 ![image001](/images/LastOfUs-006.jpg)
-
 
 ![image001](/images/LastOfUs-007.jpg)
 
-
 ![image001](/images/LastOfUs-008.jpg)
-
-
-![image001](/images/LastOfUs-009.jpg)
-
 
 ![image001](/images/LastOfUs-010.jpg)
 
@@ -108,8 +109,6 @@ title = "[매우 주관적 게임리뷰] The Last Of Us Part II"
 
 ![image001](/images/LastOfUs-014.jpg)
 
-![image001](/images/LastOfUs-015.jpg)
-
 ![image001](/images/LastOfUs-016.jpg)
 
 ![image001](/images/LastOfUs-017.jpg)
@@ -120,12 +119,8 @@ title = "[매우 주관적 게임리뷰] The Last Of Us Part II"
 
 ![image001](/images/LastOfUs-020.jpg)
 
-![image001](/images/LastOfUs-021.jpg)
-
 ![image001](/images/LastOfUs-022.jpg)
 
 ![image001](/images/LastOfUs-023.jpg)
 
 ![image001](/images/LastOfUs-024.jpg)
-
-![image001](/images/LastOfUs-025.jpg)
