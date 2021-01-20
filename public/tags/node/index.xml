@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>node on Honux BBS</title>
+    <link>https://honux77.github.io/tags/node/</link>
+    <description>Recent content in node on Honux BBS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Mon, 16 Nov 2020 12:35:47 +0000</lastBuildDate>
+    
+	<atom:link href="https://honux77.github.io/tags/node/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RFC 읽고 GitHub Oauth2 인증 구현해 보기</title>
+      <link>https://honux77.github.io/post/rfc-github-oauth2/</link>
+      <pubDate>Mon, 16 Nov 2020 12:35:47 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/rfc-github-oauth2/</guid>
+      <description>최근 강의 준비를 위해 RFC6749를 읽었다.
+생각보다 설명이 잘 되어 있고 읽기가 편한 편이다.
+시험 삼아 별도 모듈 없이 직접 node.js + express로 구현을 해 봤다. 다행히 잘 된다.
+인증 과정 요약  GitHub(Authentication Server) 에서 제공하는 url을 통해 **사용자(resource owner)**는 **서비스(client)**가 scope로 미리 정의한 요청 권한을 직접 확인하고 grant한다. 결과물로 authorization code가 나온다. 서비스는 callback URL을 통해 사용자로부터 전달받은 code에 client id, secret을 함께 묶어서 인증 서버로 보내면 access token을 얻을 수 있다.</description>
+    </item>
+    
+  </channel>
+</rss>

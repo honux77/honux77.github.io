@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on Honux BBS</title>
+    <link>https://honux77.github.io/tags/blog/</link>
+    <description>Recent content in blog on Honux BBS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Fri, 01 Jan 2021 03:39:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://honux77.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[새해 첫글] 깃헙 블로그에 OG 태그 적용해 보기</title>
+      <link>https://honux77.github.io/post/og/</link>
+      <pubDate>Fri, 01 Jan 2021 03:39:40 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/og/</guid>
+      <description>2020년 1월 1일 첫 글 아침에 일어나서 남들과 같이 새해 첫날이니까 목표를 잡아 보았다. 나는 하고 싶은 일이 많기 때문에 우선순위로 최대한 추려보니 다음과 같았다.
+나의 새해 목표  운동하기: 체중감량 ==&amp;gt; 턱걸이, 푸쉬업 증가, 주짓수 꾸준히 하기 코드포스 블루: 1000문제 풀기 ==&amp;gt; 열심히 꾸준히 해서 백준 플래 + 코드포스 블루 받기 자바 스프링 기초 공부: 기선님 영한님 토비님 자료 공부하기 ==&amp;gt; 올해는 입문자를 넘어보자. (옵션) 유니티로 게임 개발해서 스토어에 올리기  의식의 흐름 이렇게 목표를 잡고 나서 잠깐 SNS를 하다 보니, 한 다리 건너 지인이신 원희님의 회고록을 보게 되었다.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Action으로 HUGO Publish 쉽게 하기</title>
+      <link>https://honux77.github.io/post/github-action-hugo-publish/</link>
+      <pubDate>Tue, 29 Sep 2020 16:33:56 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/github-action-hugo-publish/</guid>
+      <description>GitHub Action으로 Hugo Publish 쉽게 하기 publish.yml 생성  아래 내용으로 .github/workflws 아래에 publish.yml을 생성한다.  name: github pageson:push:branches:- master # Set a branch to deployjobs:deploy:runs-on: ubuntu-18.04steps:- uses: actions/checkout@v2with:submodules: true # Fetch Hugo themes (true OR recursive)fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod- name: Setup Hugouses: peaceiris/actions-hugo@v2with:hugo-version: &#39;0.75.1&#39;# extended: true- name: Buildrun: hugo --minify- name: Deployuses: peaceiris/actions-gh-pages@v3with:github_token: ${{ secrets.</description>
+    </item>
+    
+    <item>
+      <title>HUGO로 깃헙 블로깅하기</title>
+      <link>https://honux77.github.io/post/install-hugo/</link>
+      <pubDate>Wed, 02 Sep 2020 19:28:55 +0900</pubDate>
+      
+      <guid>https://honux77.github.io/post/install-hugo/</guid>
+      <description>HUGO로 깃헙 블로깅 하기 HUGO는 go 언어로 만들어진 static 웹 페이지 생성기이다.
+네이버 개발자 정상혁님이 공유해주신 레트로 테마가 맘에 들어서 설치하였다.
+설치 퀵스타트를 참고해서 설치한다.
+맥, 윈도우, 리눅스, 도커 모두 간편하게 설치가 가능하다.
+다만 맥은 brew, 윈도우는 chocolatey를 먼저 설치해야 한다.
+맥 brew install hugo windows choco install hugo -confirm 사이트 생성 my-blog라는 폴더를 생성하고 그 아래에 hugo를 셋업한다.
+hugo new site my-blog 테마 설치 맘에 드는 테마를 설치한다.</description>
+    </item>
+    
+    <item>
+      <title>첫 번째 글</title>
+      <link>https://honux77.github.io/post/my-first-post/</link>
+      <pubDate>Mon, 31 Aug 2020 11:35:58 +0900</pubDate>
+      
+      <guid>https://honux77.github.io/post/my-first-post/</guid>
+      <description>Hello, Hugo 첫번째 글 N사 지인이 공유해 주신 하이텔 스타일 테마가 맘에 들어서 글을 하나 올려봤다.
+이번에는 꾸준히 글을 쓸 수 있을까?</description>
+    </item>
+    
+  </channel>
+</rss>

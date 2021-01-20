@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Honux BBS</title>
+    <link>https://honux77.github.io/post/</link>
+    <description>Recent content in Posts on Honux BBS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Sun, 03 Jan 2021 04:12:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://honux77.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[알고리즘] BOJ 1022 소용돌이 예쁘게 출력하기</title>
+      <link>https://honux77.github.io/post/boj-1022/</link>
+      <pubDate>Sun, 03 Jan 2021 04:12:07 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/boj-1022/</guid>
+      <description>만만히 봤다가 어렵게 풀었다. 문제 링크
+ 소용돌이 배열을 예쁘게 찍는 문제 생각보다 많이 어렵다. 무작위로 전부 다 채우면 메모리 에러가 발생한다. 정확하게 주어진 출력 범위의 답만 찾아서 예쁘게 출력해야 한다. 예쁘게가 꽤 어렵다. 풀고 나서 다른 답안을 보니 수학적으로 getValue(i, j) 를 구해서 풀 수도 있다.  #include &amp;lt;cstdio&amp;gt;#include &amp;lt;iostream&amp;gt;#include &amp;lt;iomanip&amp;gt;#include &amp;lt;vector&amp;gt;#include &amp;lt;algorithm&amp;gt; using namespace std; using ull = long long int; int sr = 0; int sc = 0; int v = 1; int delta = 1; int csize = 1; bool dc = true; int a[50][5]; int main() { ios_base::sync_with_stdio(false); cin.</description>
+    </item>
+    
+    <item>
+      <title>백기선 자바 스터디 5: 클래스</title>
+      <link>https://honux77.github.io/post/5/</link>
+      <pubDate>Sat, 02 Jan 2021 01:55:12 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/5/</guid>
+      <description>참고자료  Oracle Java SE 8 Fundamentlas (Oracle University 교재) 객체지향의 사실과 오해, 조영호  클래스 정의 public class Hello {//fields of the class here//methods here} class 키워드를 이용해서 정의한다. 관습적으로 대문자로 시작한다. 카멜케이스를 주로 사용 public: modifier 멤버 변수 혹은 필드로 불리는 상태 또는를 갖을 수 있다. 메소드라 불리는 행동(behaviors) 또는 오퍼레이션(Operation)을 갖을 수 있다. 자바는 한 파일에 하나의 public 클래스만 허용한다. 클래스는 객체를 생성해 주는 도구, 레시피, 혹은 청사진(blueprint)이라고 할 수 있다.</description>
+    </item>
+    
+    <item>
+      <title>백기선 자바 스터디 6: 상속</title>
+      <link>https://honux77.github.io/post/6/</link>
+      <pubDate>Sat, 02 Jan 2021 01:51:18 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/6/</guid>
+      <description>자바 상속 Class Hero extends Animal implements SuperNatural {}  일반 클래스 상속은 extends 인터페이스 구현은 implements 키워드를 사용한다. 기존 클래스를 재사용해서 새로운 클래스를 만든다. 객체를 생성할 수 없는 추상 클래스를 상속해서 객체 생성 가능한 클래스를 만들 수 있다. 인터페이스를 구현해서 객체간의 프로토콜(규약)을 맞추는데 사용할 수 있다. extends를 이용한 상속은 단일상속만을 허용한다. (C++은 다중상속) 상속은 Is-a 관계가 성립한다.  Object  모든 클래스의 조상 모든 클래스는 toString(), equals(Object obj) 등 약 10개 정도의 메소드를 상속받는다.</description>
+    </item>
+    
+    <item>
+      <title>백기선 자바 스터디 2: 타입, 변수, 배열</title>
+      <link>https://honux77.github.io/post/2/</link>
+      <pubDate>Sat, 02 Jan 2021 01:36:19 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/2/</guid>
+      <description>자바 프리미티브 타입  오라클 튜토리얼 자바독     Data Type Default Value (for fields) min max     byte 0 -128 127   short 0 -32768 32767   int 0 -2^31 2^31 - 1   long 0L -2^63 2^63 -1   float 0.0f 32bit single precision (IEEE754 참고)   double 0.0d 64bit double precision    char &amp;lsquo;\u0000&amp;rsquo; &amp;lsquo;\u0000&amp;rsquo; &amp;lsquo;\uffff&amp;rsquo;   boolean false false true     참고로 String 및 Object의 기본값은 null 이다.</description>
+    </item>
+    
+    <item>
+      <title>[새해 첫글] 깃헙 블로그에 OG 태그 적용해 보기</title>
+      <link>https://honux77.github.io/post/og/</link>
+      <pubDate>Fri, 01 Jan 2021 03:39:40 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/og/</guid>
+      <description>2020년 1월 1일 첫 글 아침에 일어나서 남들과 같이 새해 첫날이니까 목표를 잡아 보았다. 나는 하고 싶은 일이 많기 때문에 우선순위로 최대한 추려보니 다음과 같았다.
+나의 새해 목표  운동하기: 체중감량 ==&amp;gt; 턱걸이, 푸쉬업 증가, 주짓수 꾸준히 하기 코드포스 블루: 1000문제 풀기 ==&amp;gt; 열심히 꾸준히 해서 백준 플래 + 코드포스 블루 받기 자바 스프링 기초 공부: 기선님 영한님 토비님 자료 공부하기 ==&amp;gt; 올해는 입문자를 넘어보자. (옵션) 유니티로 게임 개발해서 스토어에 올리기  의식의 흐름 이렇게 목표를 잡고 나서 잠깐 SNS를 하다 보니, 한 다리 건너 지인이신 원희님의 회고록을 보게 되었다.</description>
+    </item>
+    
+    <item>
+      <title>백기선 자바 스터디 4: 조건문과 반복문</title>
+      <link>https://honux77.github.io/post/4/</link>
+      <pubDate>Thu, 17 Dec 2020 07:21:17 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/4/</guid>
+      <description>조건문 오라클 스펙 링크
+기본 사용법 IfThenStatement:if ( Expression ) StatementIfThenElseStatement:if ( Expression ) StatementNoShortIf else StatementIfThenElseStatementNoShortIf:if ( Expression ) StatementNoShortIf else StatementNoShortIf 반복문 기본 for loop BasicForStatement:for ( ForInitopt ; Expressionopt ; ForUpdateopt ) Statement Enhanced for loop EnhancedForStatement:for ( FormalParameter : Expression ) Statement 간단 예제 import java.util.ArrayList;import java.util.List;List &amp;lt;Integer&amp;gt; a = new ArrayList&amp;lt;();for (int i = 0; i &amp;lt; 5; i++) {a.</description>
+    </item>
+    
+    <item>
+      <title>JS 클래스와 TS static 키워드에 대한 짧은 고찰</title>
+      <link>https://honux77.github.io/post/js-ts-static/</link>
+      <pubDate>Tue, 15 Dec 2020 16:11:07 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/js-ts-static/</guid>
+      <description>요즘 인프런 캡틴 팡요님의 TS강의를 듣고 있다가 생각나서 짧게 정리해 보았다.
+예전에 ES6의 클래스 문법을 사용하면서, 기존 자바에서 사용하던 static 메소드와 static 변수를 사용하고 싶었는데, 잘 되지 않았던 기억이 있었다.
+이 문제를 해결하기 위한 아이디어가 갑자기 떠올랐는데, TS로 코딩을 하고 컴파일을 해서 생성된 코드를 보는 것이다!
+먼저 TS에는 당연히 static 메소드와 static 변수가 있으니까 이를 이용해서 코드를 짜 보았다.
+class Dog {public name: string;private age: number;public static numTail: number;constructor(name, age) {this.</description>
+    </item>
+    
+    <item>
+      <title>백기선 자바 스터디 3: 다양한 연산자</title>
+      <link>https://honux77.github.io/post/3/</link>
+      <pubDate>Sat, 05 Dec 2020 03:02:24 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/3/</guid>
+      <description>Jshell 사용하기 우선순위같은 간단한 코드를 테스트하기엔 Jshell도 좋다. 터미널에서 jshell 또는 IntelliJ에서 tools - run jshell로 실행 가능하다.
+우선순위  . [] () : 참조연산자, 배열 첨자, 괄호가 제일 높다! ! ~ &amp;amp; | ^ - ++ --: 단항연산자도 우선순위가 높다. 부정 &amp;gt; bit &amp;gt; 부호 &amp;gt; 증감 순으로 우선순위를 가진다. 쉬프트 연산자: 산술보다 쉬프트 연산자가 우선순위가 높다. 산술연산자 비교연산자 논리연산자 삼항연산자 대입연산자  조금 복잡하지만 단항 &amp;gt; 산술 &amp;gt; 비교 &amp;gt; 논리 &amp;gt; 삼항 &amp;gt; 대입이기 때문에 자연스럽다!</description>
+    </item>
+    
+    <item>
+      <title>깃 서브모듈 사용법</title>
+      <link>https://honux77.github.io/post/%EA%B9%83-%EC%84%9C%EB%B8%8C%EB%AA%A8%EB%93%88-%EC%82%AC%EC%9A%A9%EB%B2%95/</link>
+      <pubDate>Tue, 24 Nov 2020 01:26:11 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/%EA%B9%83-%EC%84%9C%EB%B8%8C%EB%AA%A8%EB%93%88-%EC%82%AC%EC%9A%A9%EB%B2%95/</guid>
+      <description>깃 저장소 안에 또 다른 깃 저장소가 필요한 경우가 종종 생긴다. 이 때 사용하는 방법은 1) submodule 2) subtree 가 있다.
+서브 모듈은 엄밀하게 말하면 내 저장소의 특정 커밋이 자식 저장소의 특정 커밋을 지정해서 포함시키는 방법이다.
+안드로이드 같은 경우에는 google의 repo라는 툴을 이용하기도 하는데 개인적으로 상당히 좋아하는 툴이다. 관심있는 분들은 검색해 보시길.
+초기화 git submoudule add 자식저장소주소 &amp;lt;디렉토리 이름&amp;gt;git submodule add https://github.com/joshua1988/learn-typescript pangyo-ts 위 명령을 수행하면
+ 하위폴더 pangyo-ts에 해당 프로젝트를 클론한다.</description>
+    </item>
+    
+    <item>
+      <title>백기선 자바 스터디 1: JVM과 자바 실행</title>
+      <link>https://honux77.github.io/post/1-jvm/</link>
+      <pubDate>Tue, 17 Nov 2020 02:36:47 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/1-jvm/</guid>
+      <description>Java Virtual Machine (JVM)  [위키 링크](https://en.wikipedia.org/wiki/Java_virtual_machine_ 자바 프로그램을 실행할 수 있는 가상 머신 바이트코드로 컴파일할수 있는 다른 프로그래밍 언어(Kotlin, Groovy) 도 실행할 수 있다. JVM 위에서 돌아가는 프로그래밍 언어도 만들 수 있을 것 같다. 유튜브 링크  .java 컴파일  터미널에서 컴파일하는 방법이 가장 간단  javac &amp;lt;옵션&amp;gt; &amp;lt;소스파일&amp;gt;유용한 옵션 javac --help 로 옵션을 확인할 수 있다.
+ --class-path &amp;lt;path&amp;gt;, -classpath &amp;lt;path&amp;gt;, -cp &amp;lt;path&amp;gt;Specify where to find user class files and annotation processors-d &amp;lt;directory&amp;gt; Specify where to place generated class files-g Generate all debugging info--help, -help, -?</description>
+    </item>
+    
+    <item>
+      <title>BOJ 9205 맥주 마시면서 걸어가기</title>
+      <link>https://honux77.github.io/post/boj-9205/</link>
+      <pubDate>Tue, 17 Nov 2020 01:45:27 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/boj-9205/</guid>
+      <description>BOJ 9205 는 길찾기 문제이다. 정해진 기간마다 맥주를 마시면서 걷다 맥주가 부족해지기 전에 가게에 들려 맥주를 리필하고, 목적지를 찾아갈 수 있는지 여부를 출력해주면 된다.
+풀이 맥주가 떨어지기 전에 갈 수 있는 최대거리는 1000미터이므로 BFS를 이용해서 1000미터 이내의 슈퍼를 방문하고 목적지까지 갈 수 있는지 여부를 확인하는 방법을 풀었다.
+using namespace std;bool canWalk(pair&amp;lt;int,int&amp;gt; &amp;amp;a, pair&amp;lt;int,int&amp;gt; &amp;amp;b) {return abs(a.first - b.first) + abs(a.second - b.second) &amp;lt;= 1000;}void bfs(vector&amp;lt;pair&amp;lt;int,int&amp;gt;&amp;gt; &amp;amp;a) {vector&amp;lt;bool&amp;gt; visited(a.</description>
+    </item>
+    
+    <item>
+      <title>RFC 읽고 GitHub Oauth2 인증 구현해 보기</title>
+      <link>https://honux77.github.io/post/rfc-github-oauth2/</link>
+      <pubDate>Mon, 16 Nov 2020 12:35:47 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/rfc-github-oauth2/</guid>
+      <description>최근 강의 준비를 위해 RFC6749를 읽었다.
+생각보다 설명이 잘 되어 있고 읽기가 편한 편이다.
+시험 삼아 별도 모듈 없이 직접 node.js + express로 구현을 해 봤다. 다행히 잘 된다.
+인증 과정 요약  GitHub(Authentication Server) 에서 제공하는 url을 통해 **사용자(resource owner)**는 **서비스(client)**가 scope로 미리 정의한 요청 권한을 직접 확인하고 grant한다. 결과물로 authorization code가 나온다. 서비스는 callback URL을 통해 사용자로부터 전달받은 code에 client id, secret을 함께 묶어서 인증 서버로 보내면 access token을 얻을 수 있다.</description>
+    </item>
+    
+    <item>
+      <title>[알고리즘] BOJ 5525 IOIOI </title>
+      <link>https://honux77.github.io/post/boj-5525-ioioi/</link>
+      <pubDate>Fri, 06 Nov 2020 01:56:58 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/boj-5525-ioioi/</guid>
+      <description>KMP를 이용한 문자열 패턴 매칭 https://www.acmicpc.net/problem/5525 문제는 상당히 재미있는 문제였다.
+Try 1 언뜻 보면 단순 문자열 비교를 통해서 풀 수 있을 것 같은 문제라 그렇게 풀어 보았다.
+생각해 보면 복잡도가 O(n * m) 이기 때문에 당연히 TE (시간초과) 가 발생한다.
+using namespace std;string pstr(int n) {string o = &amp;quot;IO&amp;quot;;string ans = &amp;quot;&amp;quot;;for (int i = 0; i &amp;lt; n; i++) {ans += o;}return ans + &amp;quot;I&amp;quot;;}int main(){ios_base::sync_with_stdio(false);cin.</description>
+    </item>
+    
+    <item>
+      <title>BOJ 1927 최소 힙</title>
+      <link>https://honux77.github.io/post/boj-1927/</link>
+      <pubDate>Mon, 19 Oct 2020 23:09:08 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/boj-1927/</guid>
+      <description>BOJ 1927 최소 힙 BOJ 1927은 말 그대로 최소 힙을 구현하는 문제다.
+풀이 1: STL 사용 cpp에서 min(max) heap은 priority_queue를 이용하면 된다.
+#include &amp;lt;cstdio&amp;gt;#include &amp;lt;iostream&amp;gt;#include &amp;lt;algorithm&amp;gt;#include &amp;lt;queue&amp;gt;using namespace std;using ull = long long int;int main(){ios_base::sync_with_stdio(false);cin.tie(nullptr);priority_queue&amp;lt;int, vector&amp;lt;int&amp;gt;, greater&amp;lt;int&amp;gt;&amp;gt; q;int n;cin &amp;gt;&amp;gt; n;for (int i = 0; i &amp;lt; n; i++) {int num;cin &amp;gt;&amp;gt; num;if (num == 0) {if (q.</description>
+    </item>
+    
+    <item>
+      <title>GitHub Action으로 HUGO Publish 쉽게 하기</title>
+      <link>https://honux77.github.io/post/github-action-hugo-publish/</link>
+      <pubDate>Tue, 29 Sep 2020 16:33:56 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/github-action-hugo-publish/</guid>
+      <description>GitHub Action으로 Hugo Publish 쉽게 하기 publish.yml 생성  아래 내용으로 .github/workflws 아래에 publish.yml을 생성한다.  name: github pageson:push:branches:- master # Set a branch to deployjobs:deploy:runs-on: ubuntu-18.04steps:- uses: actions/checkout@v2with:submodules: true # Fetch Hugo themes (true OR recursive)fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod- name: Setup Hugouses: peaceiris/actions-hugo@v2with:hugo-version: &#39;0.75.1&#39;# extended: true- name: Buildrun: hugo --minify- name: Deployuses: peaceiris/actions-gh-pages@v3with:github_token: ${{ secrets.</description>
+    </item>
+    
+    <item>
+      <title>forestry로 블로그글 쉽게 쓰기</title>
+      <link>https://honux77.github.io/post/forestry/</link>
+      <pubDate>Tue, 29 Sep 2020 15:38:40 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/post/forestry/</guid>
+      <description>forestry.io 로 편하게 글쓰기 또 상혁님이 알려주신 forestry.io 사이트를 이용해서 글을 써 보는 중이다.
+forestry는 정적 페이지를 쉽게 생성해 주는 사이트이다.
+일단 내 깃헙 저장소를 import 하고, 템플릿을 만들고 나면 템플릿을 이용해서 글을 쓸 수 있다.
+글을 쓴 이후에는 원래는 PC에서 hugo -D 커맨드로 static 페이지를 생성해야 하는데 깃헙 액션을 이용하면 그것도 대체 가능하다.
+깃헙 액션 Huto to GH Pages는 다음번에 적용해 보자.</description>
+    </item>
+    
+    <item>
+      <title>알고리즘 - BOJ 10814 나이순 정렬</title>
+      <link>https://honux77.github.io/post/algorithm-200929/</link>
+      <pubDate>Tue, 29 Sep 2020 13:13:00 +0900</pubDate>
+      
+      <guid>https://honux77.github.io/post/algorithm-200929/</guid>
+      <description>BOJ BOJ 10814 나이순 정렬 문제는 간단한 정렬문제이다.
+다만 기본 정렬인 퀵정렬은 불안전 정렬이기 때문에 안정정렬을 사용해야 한다.
+실패 분석  출력이 많은데 endl을 사용하면 시간초과가 발생한다. 그 사실을 모르고 복잡도 때문인지 알고 카운팅 소트를 구현해서 사용했다.  안정 정렬 구현 코드 #include &amp;lt;cstdio&amp;gt;#include &amp;lt;iostream&amp;gt;#include &amp;lt;vector&amp;gt;#include &amp;lt;string&amp;gt;#include &amp;lt;algorithm&amp;gt;using namespace std;using i64 = long long int;struct People {int age;string name;};bool cmp(const People &amp;amp;a, const People &amp;amp;b) {return a.</description>
+    </item>
+    
+    <item>
+      <title>WSL2와 VS 코드를 이용한 개발환경 설정</title>
+      <link>https://honux77.github.io/post/wsl-vs-code-setting/</link>
+      <pubDate>Thu, 24 Sep 2020 10:28:21 +0900</pubDate>
+      
+      <guid>https://honux77.github.io/post/wsl-vs-code-setting/</guid>
+      <description>WSL2가 나온 이후로 윈도우에서 간단한 개발환경 세팅이 좋아졌다.
+윈도우즈 터미널로 ubuntu zsh을 바로 띄울 수 있고, vscode의 remote 기능을 이용하면 네이티브처럼 개발이 가능하다.
+Git Bash 설치 WSL보다 가볍게 bash를 사용할 수 있으므로 git 작업과 간단한 작업을 할 때 유용하다. https://git-scm.com/ 에서 설치 가능
+윈도우즈 터미널 설치 MS 스토어를 이용해서 설치하는 것이 가장 편하다.
+설치 후에는 윈도우즈 터미널에서 파워셸, 명령창, git-bash, WSL 모두 띄우게 설정하면 편하게 사용할 수 있다.
+참고: 터미널에 git-bash 추가 아래 내용은 내가 사용하고 있는 내용인데 터미널 설정 파일에 이 부분을 추가하면 된다.</description>
+    </item>
+    
+    <item>
+      <title>알고리즘 - BOJ 10972 다음 순열</title>
+      <link>https://honux77.github.io/post/algorithm-200905/</link>
+      <pubDate>Sat, 05 Sep 2020 15:23:57 +0900</pubDate>
+      
+      <guid>https://honux77.github.io/post/algorithm-200905/</guid>
+      <description>BOJ BOJ 10972 다음 순열 문제는 말 그대로 사전순으로 다음 순열을 찾는 문제다.
+일종의 Brute force 문제인데, 구현이 쉽지 않았다.
+아이디어 단계 1  역순 정렬되어 있으면 다음 순열이 없으므로 -1 을 출력한다. 처음 바꿔야 하는 숫자를 뒤에서 앞으로 순회하며 찾는다. 대상은 자신의 값이 뒷자리보다 작은 숫자 예1: 1, 2, 3, [4], 5 라면 4가 해당 예2: 1, [2], 5, 4, 3 이라면 2가 해당  단계 2  이번에는 찾은 숫자 a와 바꿀 숫자 b를 다시 뒤에서부터 찾는다.</description>
+    </item>
+    
+    <item>
+      <title>HUGO 테마 업데이트</title>
+      <link>https://honux77.github.io/post/update-hugo-386k/</link>
+      <pubDate>Fri, 04 Sep 2020 12:00:23 +0900</pubDate>
+      
+      <guid>https://honux77.github.io/post/update-hugo-386k/</guid>
+      <description>휴고 테마 업데이트 간단하게 테마를 업데이트했다.
+프론트는 잘 모르지만 구글 개발자 도구의 도움으로 그럭저럭 할 수 있었다.
+해당하는 컴포넌트를 찍고, 적용되는 CSS 요소를 찾아서 직접 수정하는 방식을 사용했다.
+한글 폰트 적용  한글 폰트는 추천받은 둥근모꼴 을 적용  코드 블록 색상 변경  약간 그린 모니터 감성이 나도록 수정했다.   APPLE ][] 10 PRINT &amp;quot;HELLO, HUGO&amp;quot;RUNHELLO, HUGO</description>
+    </item>
+    
+    <item>
+      <title>HUGO로 깃헙 블로깅하기</title>
+      <link>https://honux77.github.io/post/install-hugo/</link>
+      <pubDate>Wed, 02 Sep 2020 19:28:55 +0900</pubDate>
+      
+      <guid>https://honux77.github.io/post/install-hugo/</guid>
+      <description>HUGO로 깃헙 블로깅 하기 HUGO는 go 언어로 만들어진 static 웹 페이지 생성기이다.
+네이버 개발자 정상혁님이 공유해주신 레트로 테마가 맘에 들어서 설치하였다.
+설치 퀵스타트를 참고해서 설치한다.
+맥, 윈도우, 리눅스, 도커 모두 간편하게 설치가 가능하다.
+다만 맥은 brew, 윈도우는 chocolatey를 먼저 설치해야 한다.
+맥 brew install hugo windows choco install hugo -confirm 사이트 생성 my-blog라는 폴더를 생성하고 그 아래에 hugo를 셋업한다.
+hugo new site my-blog 테마 설치 맘에 드는 테마를 설치한다.</description>
+    </item>
+    
+    <item>
+      <title>첫 번째 글</title>
+      <link>https://honux77.github.io/post/my-first-post/</link>
+      <pubDate>Mon, 31 Aug 2020 11:35:58 +0900</pubDate>
+      
+      <guid>https://honux77.github.io/post/my-first-post/</guid>
+      <description>Hello, Hugo 첫번째 글 N사 지인이 공유해 주신 하이텔 스타일 테마가 맘에 들어서 글을 하나 올려봤다.
+이번에는 꾸준히 글을 쓸 수 있을까?</description>
+    </item>
+    
+  </channel>
+</rss>

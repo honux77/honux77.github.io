@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about on Honux BBS</title>
+    <link>https://honux77.github.io/categories/about/</link>
+    <description>Recent content in about on Honux BBS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Tue, 24 Nov 2020 01:26:11 +0000</lastBuildDate>
+    
+	<atom:link href="https://honux77.github.io/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>블로그 소개</title>
+      <link>https://honux77.github.io/about/</link>
+      <pubDate>Tue, 24 Nov 2020 01:26:11 +0000</pubDate>
+      
+      <guid>https://honux77.github.io/about/</guid>
+      <description>honux77@github.com  I Love my family, game, code, novel, cartoon, BJJ Ph. D. in Computer Engineering (Database, File System) https://github.com/honux77  </description>
+    </item>
+    
+  </channel>
+</rss>

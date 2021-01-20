@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+    <title>Honux BBS</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <meta property="og:title" content="알고리즘 - BOJ 10814 나이순 정렬 - Tue, Sep 29, 2020">
+    <meta property="og:description" content="cpp에서 stable_sort()는 안정 정렬이다.">
+    <meta property="og:image" content="https://honux77.github.io//img/hugo-og.png">
+    <link rel="icon" href="https://honux77.github.io//favicon.ico">
+    <link rel="canonical" href="https://honux77.github.io/">
+    
+    
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="https://honux77.github.io/">Honux BBS</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+                    
+                        
+                            <li>
+                                <a href="/about/">
+                                    
+                                    <span>About</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/post/">
+                                    
+                                    <span>All posts</span>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav><div id="content" class="container">
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>알고리즘 - BOJ 10814 나이순 정렬 - Tue, Sep 29, 2020</h1>
+    </div>
+    <p class="lead">cpp에서 stable_sort()는 안정 정렬이다.</p>
+    <h2 id="boj">BOJ</h2>
+<p><a href="https://www.acmicpc.net/problem/10814">BOJ 10814 나이순 정렬</a> 문제는 간단한 정렬문제이다.</p>
+<p>다만 기본 정렬인 퀵정렬은 불안전 정렬이기 때문에 안정정렬을 사용해야 한다.</p>
+<h2 id="실패-분석">실패 분석</h2>
+<ul>
+<li>출력이 많은데 endl을 사용하면 시간초과가 발생한다.</li>
+<li>그 사실을 모르고 복잡도 때문인지 알고 카운팅 소트를 구현해서 사용했다.</li>
+</ul>
+<h2 id="안정-정렬-구현-코드">안정 정렬 구현 코드</h2>
+<pre><code>#include &lt;cstdio&gt;
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;string&gt;
+#include &lt;algorithm&gt;
+
+using namespace std;
+using i64 = long long int;
+
+struct People {
+        int age;
+        string name;
+};
+
+bool cmp(const People &amp;a, const People &amp;b) {
+        return a.age &lt; b.age;
+}
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n;
+    cin &gt;&gt; n;
+        vector &lt;People&gt; a(n);
+        for (int i = 0; i &lt; n; i++) {
+                People p;
+                cin &gt;&gt; p.age &gt;&gt; p.name;
+                a[i] = p;
+        }
+        stable_sort(a.begin(), a.end(), cmp);
+
+        for (int i = 0; i &lt; n; i++) {
+                cout &lt;&lt; a[i].age &lt;&lt; &quot; &quot; &lt;&lt; a[i].name &lt;&lt; '\n';
+        }
+    return 0;
+}%   
+</code></pre><h2 id="카운팅-소트-구현-코드">카운팅 소트 구현 코드</h2>
+<pre><code>#include &lt;cstdio&gt;
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+#include &lt;string&gt;
+#include &lt;algorithm&gt;
+
+using namespace std;
+using i64 = long long int;
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n;
+    cin &gt;&gt; n;
+        vector &lt;vector &lt;string&gt;&gt; v(201);
+
+        for (int i = 0; i &lt; n; i++) {
+                int age;
+                string name;
+                cin &gt;&gt; age &gt;&gt; name;
+                v[age].push_back(name);
+        }
+
+        for (int i = 1; i &lt;= 200; i++) {
+                if (v[i].size() != 0) {
+                        for (auto &amp;name: v[i]) {
+                                cout &lt;&lt; i &lt;&lt; &quot; &quot; &lt;&lt; name &lt;&lt; &quot;\n&quot;;
+                        }
+                }
+        }
+    return 0;
+}
+
+</code></pre><h3 id="난이도">난이도</h3>
+<ul>
+<li>체감 난이도 2점. 쉬운 편이다.</li>
+<li>BOJ 난이도: 실버 5. 쉬운 편</li>
+</ul>
+
+    <h4><a href="https://honux77.github.io/"></a></h4>
+</div>
+
+
+        </div><footer class="container">
+    <hr class="soften">
+    <p>
+
+&copy; 
+
+    
+
+<span id="thisyear">2020</span>
+
+
+        |  <a href="//gohugo.io" target="_blank">Hugo</a>
+</p>
+    <p class="text-center">
+        
+        
+        
+        <a href="https://github.com/honux77">GitHub</a> 
+        
+    </p>
+</footer>
+
+</body><link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="/css/style.css">
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap-386.js"></script>
+<script src="/js/bootstrap-transition.js"></script>
+<script src="/js/bootstrap-alert.js"></script>
+<script src="/js/bootstrap-modal.js"></script>
+<script src="/js/bootstrap-dropdown.js"></script>
+<script src="/js/bootstrap-scrollspy.js"></script>
+<script src="/js/bootstrap-tab.js"></script>
+<script src="/js/bootstrap-tooltip.js"></script>
+<script src="/js/bootstrap-popover.js"></script>
+<script src="/js/bootstrap-button.js"></script>
+<script src="/js/bootstrap-collapse.js"></script>
+<script src="/js/bootstrap-carousel.js"></script>
+<script src="/js/bootstrap-typeahead.js"></script>
+<script src="/js/bootstrap-affix.js"></script>
+<script>
+    _386 = { 
+        fastLoad: null ,
+        onePass: null , 
+        speedFactor: null 
+    };
+
+    
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
+</script></html>
