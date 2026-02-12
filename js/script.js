@@ -29,7 +29,8 @@
 
   /* --- Typewriter Effect --- */
   var typewriterEl = document.getElementById('typewriter');
-  var text = 'Software Developer & Bootcamp Organizer';
+  var config = window.SITE_CONFIG || {};
+  var text = config.typewriterText || 'Software Developer & Bootcamp Organizer';
   var charIndex = 0;
 
   function typeChar() {

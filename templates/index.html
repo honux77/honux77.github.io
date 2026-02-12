@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}" data-theme="{{ site.theme }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description | safe }}">
+  <meta property="og:title" content="{{ site.og.title }}">
+  <meta property="og:description" content="{{ site.og.description }}">
+  <meta property="og:type" content="{{ site.og.type }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="{{ site.fonts_url | safe }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.css }}">
+  <link rel="icon" href="{{ site.favicon | safe }}">
+</head>
+<body>
+  <!-- Scanline overlay -->
+  <div class="scanlines"></div>
+
+  <!-- Star field background -->
+  <canvas id="starfield" class="starfield"></canvas>
+
+  <!-- Theme toggle -->
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+    <span class="toggle-icon" id="toggleIcon">☀</span>
+  </button>
+
+  <!-- Navigation -->
+  <nav class="pixel-nav" id="nav">
+    {% for item in nav %}
+    <a href="{{ item.href }}" class="nav-link">{{ item.label }}</a>
+    {% endfor %}
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <div class="pixel-avatar" aria-hidden="true">
+        <div class="avatar-sprite"></div>
+      </div>
+      <h1 class="glitch" data-text="{{ hero.name }}">{{ hero.name }}</h1>
+      <p class="subtitle">
+        <span class="typewriter" id="typewriter"></span><span class="cursor">_</span>
+      </p>
+      <div class="stats-bar">
+        {% for stat in hero.stats %}
+        <span class="stat"><span class="stat-label">{{ stat.label }}</span><span class="stat-gauge {{ stat.class }}"></span></span>
+        {% endfor %}
+      </div>
+    </div>
+  </header>
+
+  <!-- Profile -->
+  <section class="section" id="profile">
+    <div class="container">
+      <h2 class="section-title"><span class="prompt">&gt;</span> PROFILE</h2>
+      <div class="pixel-box profile-grid">
+        <div class="profile-item">
+          <span class="profile-label">CLASS</span>
+          <span class="profile-value">{{ profile.class }}</span>
+        </div>
+        <div class="profile-item">
+          <span class="profile-label">EMAIL</span>
+          <span class="profile-value">{{ profile.email }}</span>
+        </div>
+        <div class="profile-item">
+          <span class="profile-label">CAREER</span>
+          <div class="career-list">
+            {% for company in profile.career %}
+            <span class="career-tag">{{ company }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title"><span class="prompt">&gt;</span> PROJECTS</h2>
+      <div class="card-grid">
+        {% for project in projects %}
+        <div class="project-card">
+          <div class="card-header">
+            <span class="card-icon">{{ project.icon }}</span>
+            <span class="card-badge">{{ project.year }}</span>
+          </div>
+          <h3 class="card-title">{{ project.title }}</h3>
+          <p class="card-desc">{{ project.description }}</p>
+          <div class="card-meta">
+            <span class="card-period">{{ project.period }}</span>
+            <span class="card-note">{{ project.note }}</span>
+          </div>
+          <div class="card-links">
+            <a href="{{ project.url }}" class="card-link card-link--demo" target="_blank" rel="noopener">&#9654; DEMO</a>
+            {% if project.repo %}
+            <a href="{{ project.repo }}" class="card-link card-link--repo" target="_blank" rel="noopener">&#9776; REPO</a>
+            {% endif %}
+          </div>
+          <div class="card-shine"></div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section class="section" id="blog">
+    <div class="container">
+      <h2 class="section-title"><span class="prompt">&gt;</span> BLOG</h2>
+      <div class="blog-links">
+        {% for blog in blogs %}
+        <a href="{{ blog.url }}" class="blog-link" target="_blank" rel="noopener">
+          <span class="blog-icon">{{ blog.icon }}</span>
+          <div>
+            <span class="blog-name">{{ blog.name }}</span>
+            <span class="blog-url">{{ blog.display_url }}</span>
+          </div>
+          <span class="blog-arrow">&gt;</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">{{ footer.text }}</p>
+      <p class="footer-copy">{{ footer.copyright }}</p>
+    </div>
+  </footer>
+
+  <script>window.SITE_CONFIG = { typewriterText: {{ hero.typewriter_text | tojson }} };</script>
+  <script src="{{ site.js }}"></script>
+</body>
+</html>

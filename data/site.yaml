@@ -1,0 +1,82 @@
+site:
+  lang: "ko"
+  theme: "dark"
+  title: "Honux - Software Developer"
+  description: "Honux's personal profile page - Software Developer & Bootcamp Organizer"
+  og:
+    title: "Honux - Software Developer"
+    description: "Software Developer & Bootcamp Organizer"
+    type: "website"
+  favicon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>🎮</text></svg>"
+  fonts_url: "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Noto+Sans+KR:wght@400;700&display=swap"
+  css: "css/style.css"
+  js: "js/script.js"
+
+hero:
+  name: "HONUX"
+  typewriter_text: "Software Developer & Bootcamp Organizer"
+  stats:
+    - label: "HP"
+      class: "hp"
+    - label: "MP"
+      class: "mp"
+    - label: "EXP"
+      class: "exp"
+
+nav:
+  - label: "PROFILE"
+    href: "#profile"
+  - label: "PROJECTS"
+    href: "#projects"
+  - label: "BLOG"
+    href: "#blog"
+
+profile:
+  class: "소프트웨어 개발자 / 부트캠프 운영"
+  email: "honux77 at gmail.com"
+  career:
+    - "CodeSquad"
+    - "LG Electronics"
+    - "NHN NEXT"
+    - "Naver Labs"
+    - "Amazon Web Services"
+
+projects:
+  - title: "9-Player"
+    url: "https://9-player.vercel.app/"
+    repo: "https://github.com/honux77/9-player"
+    icon: "🎵"
+    year: "2025"
+    description: "레트로 게임 음악 재생 앱"
+    period: "2025.2.4 ~ 2025.2.12"
+    note: "클로드 코드로 작성"
+  - title: "Earthbound0"
+    url: "https://earthbound0.vercel.app/"
+    repo: "https://github.com/honux77/earthbound0-ost"
+    icon: "🌍"
+    year: "2022"
+    description: "마더 OST 재생 웹 페이지"
+    period: "2022.1.6 ~ 2022.1.10"
+    note: "리액트 학습 후 연습용으로 제작"
+  - title: "Apple2 Music"
+    url: "https://apple2-music.vercel.app/"
+    repo: "https://github.com/honux77/apple2-music"
+    icon: "🍏"
+    year: "2026"
+    description: "MSX 불새 음악을 APPLE2 모킹보드에서 재생"
+    period: "2026.2.1 ~ 2026.2.13"
+    note: "클로드가 6502 어셈블리로 작성, APPLE2 모킹보드용 음악 변환기 포함"
+
+blogs:
+  - name: "GitHub Blog"
+    url: "https://honux77.github.io/bbs"
+    display_url: "honux77.github.io/bbs"
+    icon: "📝"
+  - name: "네이버 취미 블로그"
+    url: "https://blog.naver.com/k502000"
+    display_url: "blog.naver.com/k502000"
+    icon: "🌿"
+
+footer:
+  text: "PRESS START TO CONTINUE."
+  copyright: "© 2025 Honux"

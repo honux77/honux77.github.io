@@ -23,13 +23,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Prepare site
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build site
         run: |
-          mkdir -p _site
-          cp index.html _site/
-          cp .nojekyll _site/
-          cp -r css _site/
-          cp -r js _site/
+          pip install -r requirements.txt
+          python build.py
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

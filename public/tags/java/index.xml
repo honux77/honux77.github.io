@@ -1,72 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>java on Honux BBS</title>
-    <link>https://honux77.github.io/tags/java/</link>
-    <description>Recent content in java on Honux BBS</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko</language>
-    <lastBuildDate>Sat, 02 Jan 2021 01:55:12 +0000</lastBuildDate>
-    
-	<atom:link href="https://honux77.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>백기선 자바 스터디 5: 클래스</title>
-      <link>https://honux77.github.io/post/5/</link>
-      <pubDate>Sat, 02 Jan 2021 01:55:12 +0000</pubDate>
-      
-      <guid>https://honux77.github.io/post/5/</guid>
-      <description>참고자료  Oracle Java SE 8 Fundamentlas (Oracle University 교재) 객체지향의 사실과 오해, 조영호  클래스 정의 public class Hello {//fields of the class here//methods here} class 키워드를 이용해서 정의한다. 관습적으로 대문자로 시작한다. 카멜케이스를 주로 사용 public: modifier 멤버 변수 혹은 필드로 불리는 상태 또는를 갖을 수 있다. 메소드라 불리는 행동(behaviors) 또는 오퍼레이션(Operation)을 갖을 수 있다. 자바는 한 파일에 하나의 public 클래스만 허용한다. 클래스는 객체를 생성해 주는 도구, 레시피, 혹은 청사진(blueprint)이라고 할 수 있다.</description>
-    </item>
-    
-    <item>
-      <title>백기선 자바 스터디 6: 상속</title>
-      <link>https://honux77.github.io/post/6/</link>
-      <pubDate>Sat, 02 Jan 2021 01:51:18 +0000</pubDate>
-      
-      <guid>https://honux77.github.io/post/6/</guid>
-      <description>자바 상속 Class Hero extends Animal implements SuperNatural {}  일반 클래스 상속은 extends 인터페이스 구현은 implements 키워드를 사용한다. 기존 클래스를 재사용해서 새로운 클래스를 만든다. 객체를 생성할 수 없는 추상 클래스를 상속해서 객체 생성 가능한 클래스를 만들 수 있다. 인터페이스를 구현해서 객체간의 프로토콜(규약)을 맞추는데 사용할 수 있다. extends를 이용한 상속은 단일상속만을 허용한다. (C++은 다중상속) 상속은 Is-a 관계가 성립한다.  Object  모든 클래스의 조상 모든 클래스는 toString(), equals(Object obj) 등 약 10개 정도의 메소드를 상속받는다.</description>
-    </item>
-    
-    <item>
-      <title>백기선 자바 스터디 2: 타입, 변수, 배열</title>
-      <link>https://honux77.github.io/post/2/</link>
-      <pubDate>Sat, 02 Jan 2021 01:36:19 +0000</pubDate>
-      
-      <guid>https://honux77.github.io/post/2/</guid>
-      <description>자바 프리미티브 타입  오라클 튜토리얼 자바독     Data Type Default Value (for fields) min max     byte 0 -128 127   short 0 -32768 32767   int 0 -2^31 2^31 - 1   long 0L -2^63 2^63 -1   float 0.0f 32bit single precision (IEEE754 참고)   double 0.0d 64bit double precision    char &amp;lsquo;\u0000&amp;rsquo; &amp;lsquo;\u0000&amp;rsquo; &amp;lsquo;\uffff&amp;rsquo;   boolean false false true     참고로 String 및 Object의 기본값은 null 이다.</description>
-    </item>
-    
-    <item>
-      <title>백기선 자바 스터디 4: 조건문과 반복문</title>
-      <link>https://honux77.github.io/post/4/</link>
-      <pubDate>Thu, 17 Dec 2020 07:21:17 +0000</pubDate>
-      
-      <guid>https://honux77.github.io/post/4/</guid>
-      <description>조건문 오라클 스펙 링크
-기본 사용법 IfThenStatement:if ( Expression ) StatementIfThenElseStatement:if ( Expression ) StatementNoShortIf else StatementIfThenElseStatementNoShortIf:if ( Expression ) StatementNoShortIf else StatementNoShortIf 반복문 기본 for loop BasicForStatement:for ( ForInitopt ; Expressionopt ; ForUpdateopt ) Statement Enhanced for loop EnhancedForStatement:for ( FormalParameter : Expression ) Statement 간단 예제 import java.util.ArrayList;import java.util.List;List &amp;lt;Integer&amp;gt; a = new ArrayList&amp;lt;();for (int i = 0; i &amp;lt; 5; i++) {a.</description>
-    </item>
-    
-    <item>
-      <title>백기선 자바 스터디 3: 다양한 연산자</title>
-      <link>https://honux77.github.io/post/3/</link>
-      <pubDate>Sat, 05 Dec 2020 03:02:24 +0000</pubDate>
-      
-      <guid>https://honux77.github.io/post/3/</guid>
-      <description>Jshell 사용하기 우선순위같은 간단한 코드를 테스트하기엔 Jshell도 좋다. 터미널에서 jshell 또는 IntelliJ에서 tools - run jshell로 실행 가능하다.
-우선순위  . [] () : 참조연산자, 배열 첨자, 괄호가 제일 높다! ! ~ &amp;amp; | ^ - ++ --: 단항연산자도 우선순위가 높다. 부정 &amp;gt; bit &amp;gt; 부호 &amp;gt; 증감 순으로 우선순위를 가진다. 쉬프트 연산자: 산술보다 쉬프트 연산자가 우선순위가 높다. 산술연산자 비교연산자 논리연산자 삼항연산자 대입연산자  조금 복잡하지만 단항 &amp;gt; 산술 &amp;gt; 비교 &amp;gt; 논리 &amp;gt; 삼항 &amp;gt; 대입이기 때문에 자연스럽다!</description>
-    </item>
-    
-    <item>
-      <title>백기선 자바 스터디 1: JVM과 자바 실행</title>
-      <link>https://honux77.github.io/post/1-jvm/</link>
-      <pubDate>Tue, 17 Nov 2020 02:36:47 +0000</pubDate>
-      
-      <guid>https://honux77.github.io/post/1-jvm/</guid>
-      <description>Java Virtual Machine (JVM)  [위키 링크](https://en.wikipedia.org/wiki/Java_virtual_machine_ 자바 프로그램을 실행할 수 있는 가상 머신 바이트코드로 컴파일할수 있는 다른 프로그래밍 언어(Kotlin, Groovy) 도 실행할 수 있다. JVM 위에서 돌아가는 프로그래밍 언어도 만들 수 있을 것 같다. 유튜브 링크  .java 컴파일  터미널에서 컴파일하는 방법이 가장 간단  javac &amp;lt;옵션&amp;gt; &amp;lt;소스파일&amp;gt;유용한 옵션 javac --help 로 옵션을 확인할 수 있다.
- --class-path &amp;lt;path&amp;gt;, -classpath &amp;lt;path&amp;gt;, -cp &amp;lt;path&amp;gt;Specify where to find user class files and annotation processors-d &amp;lt;directory&amp;gt; Specify where to place generated class files-g Generate all debugging info--help, -help, -?</description>
-    </item>
-    
-  </channel>
-</rss>

@@ -1,7 +1,3 @@
-# Hugo (legacy)
-public/
-resources/
-
 # OS
 .DS_Store
 Thumbs.db
@@ -12,3 +8,7 @@ Thumbs.db
 *~
 .vscode/
 .idea/
+
+# Build output
+_site/
+__pycache__/
