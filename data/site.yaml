@@ -46,10 +46,19 @@ projects:
     url: "https://9-player.vercel.app/"
     repo: "https://github.com/honux77/9-player"
     icon: "🎵"
-    year: "2025"
+    year: "2026"
     description: "레트로 게임 음악 재생 앱"
-    period: "2025.2.4 ~ 2025.2.12"
+    period: "2026.2.4 ~ 2026.2.12"
     note: "클로드 코드로 작성"
+  - title: "Slime Derby"
+    url: "https://honux77.github.io/slime-derby/"
+    repo: "https://github.com/honux77/slime-derby"
+    icon: "🐉"
+    year: "2026"
+    description: "슬라임 경주 스타일 추첨 앱"
+    period: "2026.2.14 ~ 2026.2.14"
+    note: "클로드 코드로 작성"
+
   - title: "Earthbound0"
     url: "https://earthbound0.vercel.app/"
     repo: "https://github.com/honux77/earthbound0-ost"
@@ -77,6 +86,8 @@ blogs:
     display_url: "blog.naver.com/k502000"
     icon: "🌿"
 
+support:
+  buymeacoffee: "buymeacoffee.com/honux77o"
 footer:
   text: "PRESS START TO CONTINUE."
   copyright: "© 2025 Honux"
