@@ -68,7 +68,7 @@ projects:
     period: "2022.1.6 ~ 2022.1.10"
     note: "리액트 학습 후 연습용으로 제작"
   - title: "Apple2 Music"
-    url: "https://apple2-music.vercel.app/"
+    url: "https://apple2ts.com/#https://github.com/honux77/apple2-music/raw/main/realeases/music-latest.dsk"
     repo: "https://github.com/honux77/apple2-music"
     icon: "🍏"
     year: "2026"
