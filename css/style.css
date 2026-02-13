@@ -723,6 +723,64 @@ body {
 }
 
 /* ============================================
+   SUPPORT SECTION
+   ============================================ */
+.support-box {
+  padding: 0;
+  background: var(--bg-card);
+  border: 3px solid var(--border-color);
+  box-shadow: 6px 6px 0 var(--border-color);
+}
+
+.support-link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 20px;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: all 0.2s ease;
+}
+
+.support-box:hover {
+  border-color: var(--accent);
+  box-shadow:
+    6px 6px 0 var(--accent),
+    0 0 16px var(--border-glow);
+  transform: translate(-1px, -1px);
+}
+
+.support-box:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--accent);
+}
+
+.support-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.support-text {
+  font-family: var(--font-pixel);
+  font-size: 11px;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.support-arrow {
+  font-family: var(--font-pixel);
+  font-size: 16px;
+  color: var(--accent);
+  flex-shrink: 0;
+  animation: blink-arrow 1.2s ease-in-out infinite;
+}
+
+@keyframes blink-arrow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+/* ============================================
    FOOTER
    ============================================ */
 .footer {

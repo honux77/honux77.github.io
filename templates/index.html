@@ -125,6 +125,24 @@
     </div>
   </section>
 
+  <!-- Support -->
+  {% if support %}
+  <section class="section" id="support">
+    <div class="container">
+      <h2 class="section-title"><span class="prompt">&gt;</span> SUPPORT</h2>
+      <div class="pixel-box support-box">
+        {% if support.buymeacoffee %}
+        <a href="https://{{ support.buymeacoffee }}" class="support-link" target="_blank" rel="noopener">
+          <span class="support-icon">☕</span>
+          <span class="support-text">Buy me a coffee</span>
+          <span class="support-arrow">&gt;</span>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
