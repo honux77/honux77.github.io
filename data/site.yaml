@@ -11,6 +11,7 @@ site:
   fonts_url: "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Noto+Sans+KR:wght@400;700&display=swap"
   css: "css/style.css"
   js: "js/script.js"
+  base_url: "https://honux77.github.io"
 
 hero:
   name: "HONUX"

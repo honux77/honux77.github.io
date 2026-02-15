@@ -59,6 +59,17 @@ def main():
         else:
             print(f"  ⚠️  {asset_dir}/ (not found)")
 
+    static_src = ROOT / "static"
+    if static_src.exists():
+        for item in static_src.iterdir():
+            dest = SITE_DIR / item.name
+            if item.is_dir():
+                shutil.copytree(item, dest, dirs_exist_ok=True)
+            else:
+                shutil.copy2(item, dest)
+        file_count = sum(1 for _ in static_src.rglob("*") if _.is_file())
+        print(f"  ✅ static/ ({file_count} files)")
+
     (SITE_DIR / ".nojekyll").write_text("")
     print(f"  ✅ .nojekyll")
 
