@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m http.server:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nReplace Hugo with retro pixel profile page\n\nStatic HTML/CSS/JS personal profile site with dark/light theme toggle,\npixel art avatar, CRT scanline effects, star field background,\ntypewriter animation, and project cards.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(git -C \"C:\\\\Users\\\\k5020\\\\hobby-projects\\\\honux77.github.io\" log --oneline -5)",
+      "Bash(git rm:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(code:*)",
+      "Bash(git commit:*)",
+      "Bash(PYTHONIOENCODING=utf-8 python:*)"
+    ]
+  }
+}
