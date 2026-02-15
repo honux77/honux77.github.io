@@ -237,72 +237,22 @@ body {
   image-rendering: pixelated;
   background: none;
   box-shadow:
-    /* Hair row 1 */
-    10px 0 0 var(--accent-secondary),
-    20px 0 0 var(--accent-secondary),
-    30px 0 0 var(--accent-secondary),
-    40px 0 0 var(--accent-secondary),
-    50px 0 0 var(--accent-secondary),
-    60px 0 0 var(--accent-secondary),
-    /* Hair row 2 */
-    0px 10px 0 var(--accent-secondary),
-    10px 10px 0 var(--accent-secondary),
-    20px 10px 0 var(--accent-secondary),
-    30px 10px 0 var(--accent-secondary),
-    40px 10px 0 var(--accent-secondary),
-    50px 10px 0 var(--accent-secondary),
-    60px 10px 0 var(--accent-secondary),
-    70px 10px 0 var(--accent-secondary),
-    /* Face row 3 */
-    0px 20px 0 var(--accent-secondary),
-    10px 20px 0 #ffcc88,
-    20px 20px 0 #ffcc88,
-    30px 20px 0 #ffcc88,
-    40px 20px 0 #ffcc88,
-    50px 20px 0 #ffcc88,
-    60px 20px 0 #ffcc88,
-    70px 20px 0 var(--accent-secondary),
-    /* Face row 4 - eyes */
-    0px 30px 0 #ffcc88,
-    10px 30px 0 #ffcc88,
-    20px 30px 0 #222244,
-    30px 30px 0 #ffcc88,
-    40px 30px 0 #ffcc88,
-    50px 30px 0 #222244,
-    60px 30px 0 #ffcc88,
-    70px 30px 0 #ffcc88,
-    /* Face row 5 */
-    0px 40px 0 #ffcc88,
-    10px 40px 0 #ffcc88,
-    20px 40px 0 #ffcc88,
-    30px 40px 0 #ffcc88,
-    40px 40px 0 #ffcc88,
-    50px 40px 0 #ffcc88,
-    60px 40px 0 #ffcc88,
-    70px 40px 0 #ffcc88,
-    /* Face row 6 - mouth */
-    10px 50px 0 #ffcc88,
-    20px 50px 0 #ffcc88,
-    30px 50px 0 #ff8866,
-    40px 50px 0 #ff8866,
-    50px 50px 0 #ff8866,
-    60px 50px 0 #ffcc88,
-    /* Body row 7 */
-    10px 60px 0 var(--accent),
-    20px 60px 0 var(--accent),
-    30px 60px 0 var(--accent),
-    40px 60px 0 var(--accent),
-    50px 60px 0 var(--accent),
-    60px 60px 0 var(--accent),
-    /* Body row 8 */
-    0px 70px 0 var(--accent),
-    10px 70px 0 var(--accent),
-    20px 70px 0 var(--accent),
-    30px 70px 0 var(--accent),
-    40px 70px 0 var(--accent),
-    50px 70px 0 var(--accent),
-    60px 70px 0 var(--accent),
-    70px 70px 0 var(--accent);
+    /* Row 1: Helmet top */
+    20px 0 0 #2b3a8c, 30px 0 0 #2b3a8c, 40px 0 0 #2b3a8c, 50px 0 0 #2b3a8c,
+    /* Row 2: Helmet + Wings top */
+    10px 10px 0 #ffcc00, 20px 10px 0 #2b3a8c, 30px 10px 0 #2b3a8c, 40px 10px 0 #2b3a8c, 50px 10px 0 #2b3a8c, 60px 10px 0 #ffcc00,
+    /* Row 3: Helmet + Wings mid */
+    0px 20px 0 #ffcc00, 10px 20px 0 #ffcc00, 20px 20px 0 #2b3a8c, 30px 20px 0 #2b3a8c, 40px 20px 0 #2b3a8c, 50px 20px 0 #2b3a8c, 60px 20px 0 #ffcc00, 70px 20px 0 #ffcc00,
+    /* Row 4: Goggles/Eyes top */
+    10px 30px 0 #2b3a8c, 20px 30px 0 #ffffff, 30px 30px 0 #2b3a8c, 40px 30px 0 #ffffff, 50px 30px 0 #2b3a8c, 60px 30px 0 #2b3a8c,
+    /* Row 5: Goggles/Eyes mid (pupils) */
+    10px 40px 0 #2b3a8c, 20px 40px 0 #ffffff, 25px 40px 0 #000000, 30px 40px 0 #2b3a8c, 40px 40px 0 #ffffff, 45px 40px 0 #000000, 50px 40px 0 #2b3a8c,
+    /* Row 6: Face/Mouth */
+    10px 50px 0 #2b3a8c, 20px 50px 0 #ffddbb, 30px 50px 0 #ffddbb, 40px 50px 0 #ffddbb, 50px 50px 0 #2b3a8c,
+    /* Row 7: Suit start */
+    10px 60px 0 #ffffff, 20px 60px 0 #ffffff, 30px 60px 0 #ee3333, 40px 60px 0 #ffffff, 50px 60px 0 #ffffff, 60px 60px 0 #ee3333,
+    /* Row 8: Suit base */
+    0px 70px 0 #ee3333, 10px 70px 0 #ffffff, 20px 70px 0 #ffffff, 30px 70px 0 #ffffff, 40px 70px 0 #ffffff, 50px 70px 0 #ffffff, 60px 70px 0 #ffffff, 70px 70px 0 #ee3333;
   width: 10px;
   height: 10px;
   animation: avatar-float 3s ease-in-out infinite;
