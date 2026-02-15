@@ -135,14 +135,17 @@
   <section class="section" id="support">
     <div class="container">
       <h2 class="section-title"><span class="prompt">&gt;</span> SUPPORT</h2>
-      <div class="pixel-box support-box">
-        {% if support.buymeacoffee %}
-        <a href="https://{{ support.buymeacoffee }}" class="support-link" target="_blank" rel="noopener">
-          <span class="support-icon">☕</span>
-          <span class="support-text">Buy me a coffee</span>
-          <span class="support-arrow">&gt;</span>
+      <div class="blog-links">
+        {% for item in support %}
+        <a href="{{ item.url }}" class="blog-link" target="_blank" rel="noopener">
+          <span class="blog-icon">{{ item.icon }}</span>
+          <div>
+            <span class="blog-name">{{ item.name }}</span>
+            <span class="blog-url">{{ item.url | replace('https://', '') }}</span>
+          </div>
+          <span class="blog-arrow">&gt;</span>
         </a>
-        {% endif %}
+        {% endfor %}
       </div>
     </div>
   </section>

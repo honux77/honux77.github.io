@@ -32,6 +32,8 @@ nav:
     href: "#blog"
   - label: "SNS"
     href: "#sns"
+  - label: "SUPPORT"
+    href: "#support"
 
 profile:
   class: "소프트웨어 개발자 / 부트캠프 운영"
@@ -112,7 +114,12 @@ sns:
     icon: "🐦"
 
 support:
-  buymeacoffee: "buymeacoffee.com/honux77o"
+  - name: "GitHub Sponsors"
+    url: "https://github.com/sponsors/honux77"
+    icon: "💜"
+  - name: "Buy Me a Coffee"
+    url: "https://buymeacoffee.com/honux77o"
+    icon: "☕"
 
 footer:
   text: "PRESS START TO CONTINUE."
