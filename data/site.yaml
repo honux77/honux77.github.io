@@ -30,6 +30,8 @@ nav:
     href: "#projects"
   - label: "BLOG"
     href: "#blog"
+  - label: "SNS"
+    href: "#sns"
 
 profile:
   class: "소프트웨어 개발자 / 부트캠프 운영"
@@ -47,17 +49,19 @@ projects:
     repo: "https://github.com/honux77/apple2-music"
     icon: "🍏"
     year: "2026"
-    description: "MSX 불새 음악을 APPLE2 모킹보드에서 재생"
+    description: "MSX PSG 음악을 APPLE2 모킹보드에서 재생"
     period: "2026.2.1 ~ 2026.2.13"
     note: "클로드가 6502 어셈블리로 작성, APPLE2 모킹보드용 음악 변환기 포함"
+
   - title: "샤이닝 포스 2 웹 공략집"
     url: "https://honux77.github.io/sf2"
     repo: "https://github.com/honux77/sf2"
     icon: "⚔️"
     year: "2026"
-    description: "레트로 게임 음악 재생 앱"
+    description: "샤이닝포스2 공략집을 모던한 디자인으로 변경"
     period: "2026.2.14 ~ 2026.2.15"
     note: "리액트 프로젝트, 안티그래비티로 작성"
+
   - title: "9-Player"
     url: "https://9-player.vercel.app/"
     repo: "https://github.com/honux77/9-player"
@@ -66,6 +70,7 @@ projects:
     description: "레트로 게임 음악 재생 앱"
     period: "2026.2.4 ~ 2026.2.12"
     note: "클로드 코드로 작성"
+
   - title: "Slime Derby"
     url: "https://honux77.github.io/slime-derby/"
     repo: "https://github.com/honux77/slime-derby"
@@ -74,6 +79,7 @@ projects:
     description: "슬라임 경주 스타일 추첨 앱"
     period: "2026.2.14 ~ 2026.2.14"
     note: "클로드 코드로 작성"
+
   - title: "Earthbound0"
     url: "https://earthbound0.vercel.app/"
     repo: "https://github.com/honux77/earthbound0-ost"
@@ -93,8 +99,21 @@ blogs:
     display_url: "blog.naver.com/k502000"
     icon: "🌿"
 
+
+sns:
+  - name: "개발 유튜브"
+    url: "https://www.youtube.com/@honux5054"
+    icon: "📺"
+  - name: "게임 유튜브"
+    url: "https://www.youtube.com/@honux77"
+    icon: "🎮"
+  - name: "X (Twitter)"
+    url: "https://x.com/HonuxJ"
+    icon: "🐦"
+
 support:
   buymeacoffee: "buymeacoffee.com/honux77o"
+
 footer:
   text: "PRESS START TO CONTINUE."
   copyright: "© 2025 Honux"
