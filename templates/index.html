@@ -98,8 +98,12 @@
             <span class="card-note">{{ project.note }}</span>
           </div>
           <div class="card-links">
+            {% if project.url and project.url != "Not Published" %}
             <a href="{{ project.url }}" class="card-link card-link--demo" target="_blank" rel="noopener">&#9654;
               DEMO</a>
+            {% else %}
+            <span class="card-link card-link--demo card-link--disabled">&#9654; DEMO</span>
+            {% endif %}
             {% if project.repo %}
             <a href="{{ project.repo }}" class="card-link card-link--repo" target="_blank" rel="noopener">&#9776;
               REPO</a>

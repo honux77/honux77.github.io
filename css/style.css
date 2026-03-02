@@ -566,6 +566,12 @@ body {
   box-shadow: 0 0 12px var(--border-glow);
 }
 
+.card-link--disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .card-link--repo {
   color: var(--text-secondary);
   border-color: var(--tag-border);
