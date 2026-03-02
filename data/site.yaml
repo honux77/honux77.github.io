@@ -37,7 +37,7 @@ nav:
     href: "#support"
 
 profile:
-  class: "소프트웨어 개발자 / 부트캠프 운영"
+  class: "소프트웨어 개발자입니다. 다양한 레트로기기를 만지고 노는 것을 좋아합니다."
   email: "honux77 at gmail.com"
   career:
     - "CodeSquad"
@@ -47,6 +47,14 @@ profile:
     - "Amazon Web Services"
 
 projects:
+  - title: "VGM2WAV2"
+    url: "Not Published"
+    repo: "https://github.com/honux77/vgm2wav2"
+    icon: "🎵"
+    year: "2026"
+    description: "VGM, SPC 등 다양한 레트로 게임 음악 파일을 WAV, MP3, AAC 등으로 변환하는 도구"
+    period: "2026.2.28 ~ 2026.3.2"
+    note: "LIBVGM, LIBGM, FFMPEG 라이브러리를 활용하여 클로드 코드로 작성"
   - title: "Apple2 Music"
     url: "https://apple2ts.com/#https://github.com/honux77/apple2-music/raw/main/realeases/music-latest.dsk"
     repo: "https://github.com/honux77/apple2-music"
